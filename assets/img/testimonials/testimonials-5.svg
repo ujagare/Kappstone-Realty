@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Indian client portrait">
+  <rect width="160" height="160" rx="32" fill="#f5f0e6"/>
+  <circle cx="80" cy="64" r="31" fill="#c17f52"/>
+  <path d="M40 58c6-20 26-34 40-34s34 14 40 34c-12-8-26-12-40-12s-28 4-40 12z" fill="#1f1715"/>
+  <path d="M58 56c6-10 14-14 22-14s16 4 22 14" fill="#1f1715"/>
+  <rect x="48" y="92" width="64" height="44" rx="20" fill="#0b5a38"/>
+  <circle cx="68" cy="66" r="4" fill="#3b2a22"/>
+  <circle cx="92" cy="66" r="4" fill="#3b2a22"/>
+  <path d="M66 80c7 6 21 6 28 0" stroke="#6f452f" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Properties - Kappstone Realty Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Kappstone Realty
+  * Template URL: https://bootstrapmade.com/real-estate-agency-bootstrap-template/
+  * Updated: Aug 09 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="properties-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/Kappstone-logo (1).png" alt="Kappstone Logo">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+<li><a href="index.html"><i class="bi bi-house-door nav-icon"></i><span class="nav-text">Home</span></a></li>
+          <li><a href="about.html"><i class="bi bi-person-badge nav-icon"></i><span class="nav-text">About</span></a></li>
+          <li><a href="services.html"><i class="bi bi-briefcase nav-icon"></i><span class="nav-text">Services</span></a></li>
+          <li><a href="properties.html" class="active"><i class="bi bi-buildings nav-icon"></i><span class="nav-text">Properties</span></a></li>
+          <li><a href="contact.html"><i class="bi bi-chat-dots nav-icon"></i><span class="nav-text">Contact</span></a></li>
+          <li class="mobile-nav-extras">
+            <div class="mobile-nav-help">
+              <span>Need help? Call us</span>
+              <a href="tel:+917030636565"><i class="bi bi-telephone"></i> +91 70306 36565</a>
+            </div>
+<div class="mobile-nav-social">
+              <span>Follow us on social media</span>
+              <div class="mobile-social-links">
+                <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <a href="contact.html" class="mobile-cta">Book Site Visit</a>
+          </li>
+        </ul>
+</nav>
+      <button class="mobile-nav-toggle d-xl-none" type="button" aria-label="Toggle navigation" aria-expanded="false"><span class="mobile-nav-line"></span><span class="mobile-nav-line"></span></button>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Properties Hero -->
+    <section class="properties-hero">
+      <div class="container">
+        <div class="properties-hero-frame" data-aos="fade-up">
+          <div class="properties-hero-content">
+            <p class="properties-hero-kicker">Discover Extraordinary Living</p>
+            <h1>Discover Extraordinary Living</h1>
+            <p>Explore our curated collection of premium residences across Pune, Mumbai, and Dubai.</p>
+          </div>
+        </div>
+
+        <form class="properties-search" data-aos="fade-up" data-aos-delay="150">
+          <div class="row g-2 align-items-center">
+            <div class="col-12 col-md-4">
+              <label class="visually-hidden" for="propertySearch">Search</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control" id="propertySearch" placeholder="Search project or locality">
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <label class="visually-hidden" for="propertyLocation">Location</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-geo-alt"></i></span>
+                <select class="form-select" id="propertyLocation">
+                  <option selected>All Locations</option>
+                  <option>Pune</option>
+                  <option>Mumbai</option>
+                  <option>Dubai</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 col-md-3">
+              <label class="visually-hidden" for="propertyType">Property Type</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-house-door"></i></span>
+                <select class="form-select" id="propertyType">
+                  <option selected>Property Type</option>
+                  <option>Apartment</option>
+                  <option>Villa</option>
+                  <option>Commercial</option>
+                </select>
+              </div>
+            </div>
+            <div class="col-12 col-md-2">
+              <label class="visually-hidden" for="propertyBudget">Budget</label>
+              <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-cash-coin"></i></span>
+                <select class="form-select" id="propertyBudget">
+                  <option selected>Price Range</option>
+                  <option>₹50L - ₹1Cr</option>
+                  <option>₹1Cr - ₹3Cr</option>
+                  <option>₹3Cr+</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="properties-featured section">
+      <div class="container">
+        <div class="properties-section-head" data-aos="fade-up">
+          <div>
+            <h2>Featured Collections</h2>
+            <p>Exclusive properties handpicked by our experts.</p>
+          </div>
+          <a href="properties.html" class="properties-viewall">View All <i class="bi bi-arrow-right"></i></a>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="properties-card featured">
+              <div class="properties-card-media">
+                <img src="assets/img/properties/featured-1.jpg" alt="Palm Umeirah Villa" class="img-fluid">
+                <span class="properties-badge">Premium</span>
+                <button class="properties-fav" type="button" aria-label="Save property"><i class="bi bi-heart"></i></button>
+              </div>
+              <div class="properties-card-body">
+                <div class="properties-card-top">
+                  <h3><a href="property-single.html">Palm Umeirah Villa</a></h3>
+                  <span class="properties-price">AED 12.5M</span>
+                </div>
+                <p class="properties-location"><i class="bi bi-geo-alt"></i> Dubai, UAE</p>
+                <div class="properties-meta">
+                  <span><i class="bi bi-house-door"></i> 5 BHK</span>
+                  <span><i class="bi bi-aspect-ratio"></i> 4,200 sqft</span>
+                  <span><i class="bi bi-droplet"></i> 6 Baths</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="properties-card featured">
+              <div class="properties-card-media">
+                <img src="assets/img/properties/featured-2.jpg" alt="Skyline Penthouse" class="img-fluid">
+                <span class="properties-badge">Top Rated</span>
+                <button class="properties-fav" type="button" aria-label="Save property"><i class="bi bi-heart"></i></button>
+              </div>
+              <div class="properties-card-body">
+                <div class="properties-card-top">
+                  <h3><a href="property-single.html">Skyline Penthouse</a></h3>
+                  <span class="properties-price">₹18.2 Cr</span>
+                </div>
+                <p class="properties-location"><i class="bi bi-geo-alt"></i> Worli, Mumbai</p>
+                <div class="properties-meta">
+                  <span><i class="bi bi-house-door"></i> 4 BHK</span>
+                  <span><i class="bi bi-aspect-ratio"></i> 3,150 sqft</span>
+                  <span><i class="bi bi-droplet"></i> 4 Baths</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="properties-card featured">
+              <div class="properties-card-media">
+                <img src="assets/img/properties/featured-3.jpg" alt="Green Valley Estate" class="img-fluid">
+                <span class="properties-badge">New Launch</span>
+                <button class="properties-fav" type="button" aria-label="Save property"><i class="bi bi-heart"></i></button>
+              </div>
+              <div class="properties-card-body">
+                <div class="properties-card-top">
+                  <h3><a href="property-single.html">Green Valley Estate</a></h3>
+                  <span class="properties-price">₹8.4 Cr</span>
+                </div>
+                <p class="properties-location"><i class="bi bi-geo-alt"></i> Baner, Pune</p>
+                <div class="properties-meta">
+                  <span><i class="bi bi-house-door"></i> 6 BHK</span>
+                  <span><i class="bi bi-aspect-ratio"></i> 5,800 sqft</span>
+                  <span><i class="bi bi-droplet"></i> 5 Baths</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- All Listings -->
+    <section class="properties-listings section">
+      <div class="container">
+        <div class="properties-section-head" data-aos="fade-up">
+          <div>
+            <h2>All Listings</h2>
+            <p>Explore handpicked homes and investment-ready properties.</p>
+          </div>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="properties-card compact">
+              <div class="properties-card-media">
+                <img src="assets/img/properties/listing-1.jpg" alt="Marina Heights Apartment" class="img-fluid">
+              </div>
+              <div class="properties-card-body">
+                <span class="properties-price">AED 4.2M</span>
+                <h3><a href="property-single.html">Marina Heights Apt</a></h3>
+                <p class="properties-location"><i class="bi bi-geo-alt"></i> Dubai Marina, Dubai</p>
+                <div class="properties-meta">
+                  <span><i class="bi bi-house-door"></i> 2 BHK</span>
+                  <span><i class="bi bi-aspect-ratio"></i> 1,400 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="properties-card compact">
+              <div class="properties-card-media">
+                <img src="assets/img/properties/listing-2.jpg" alt="Sea View Residency" class="img-fluid">
+              </div>
+              <div class="properties-card-body">
+                <span class="properties-price">₹4.8 Cr</span>
+                <h3><a href="property-single.html">Sea View Residency</a></h3>
+                <p class="properties-location"><i class="bi bi-geo-alt"></i> Bandra West, Mumbai</p>
+                <div class="properties-meta">
+                  <span><i class="bi bi-house-door"></i> 3 BHK</span>
+                  <span><i class="bi bi-aspect-ratio"></i> 1,850 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="properties-card compact">
+              <div class="properties-card-media">
+                <img src="assets/img/properties/listing-3.jpg" alt="Koregaon Park Estate" class="img-fluid">
+              </div>
+              <div class="properties-card-body">
+                <span class="properties-price">₹2.1 Cr</span>
+                <h3><a href="property-single.html">Koregaon Park Estate</a></h3>
+                <p class="properties-location"><i class="bi bi-geo-alt"></i> Koregaon Park, Pune</p>
+                <div class="properties-meta">
+                  <span><i class="bi bi-house-door"></i> 3 BHK</span>
+                  <span><i class="bi bi-aspect-ratio"></i> 2,100 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="properties-card compact">
+              <div class="properties-card-media">
+                <img src="assets/img/properties/listing-4.jpg" alt="Emirates Hills Villa" class="img-fluid">
+              </div>
+              <div class="properties-card-body">
+                <span class="properties-price">AED 8.9M</span>
+                <h3><a href="property-single.html">Emirates Hills Villa</a></h3>
+                <p class="properties-location"><i class="bi bi-geo-alt"></i> Emirates Hills, Dubai</p>
+                <div class="properties-meta">
+                  <span><i class="bi bi-house-door"></i> 5 BHK</span>
+                  <span><i class="bi bi-aspect-ratio"></i> 5,500 sqft</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="properties-cta" data-aos="fade-up">
+          <a href="properties.html" class="properties-load">Load More Properties</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="row gy-4 footer-grid">
+        <div class="col-xl-4 col-md-6">
+          <div class="footer-card">
+            <div class="footer-brand">
+              <img src="assets/img/Kappstone-logo (1).png" alt="Kappstone Realty">
+              <div class="footer-brand-text">
+                <span>Kappstone Realty</span>
+                <span class="footer-tagline">Trusted Real Estate Advisors</span>
+              </div>
+            </div>
+            <div class="footer-item">
+              <i class="bi bi-geo-alt"></i>
+              <p>Aditya Garden City, U 1201, Warje, Pune-411058, India</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+          <div class="footer-card">
+            <h4>Contact</h4>
+            <div class="footer-item">
+              <i class="bi bi-telephone"></i>
+              <p>+91 70306 36565</p>
+            </div>
+            <div class="footer-item">
+              <i class="bi bi-envelope"></i>
+              <p>sales@kappstonerealty.com</p>
+            </div>
+            <div class="footer-item">
+              <i class="bi bi-globe2"></i>
+              <p>www.Kappstonerealty.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+          <div class="footer-card">
+            <h4>Leadership</h4>
+            <div class="footer-item">
+              <i class="bi bi-person-badge"></i>
+              <p><strong>ATUL MAZIRE</strong><br><span>Founder / Owner</span><br><span>ID: A031262504301</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-2 col-md-6">
+          <div class="footer-card">
+            <h4>Quick Links</h4>
+            <ul class="footer-links">
+              <li><a href="index.html"><i class="bi bi-arrow-right-short"></i><i class="bi bi-house-door nav-icon"></i><span class="nav-text">Home</span></a></li>
+              <li><a href="about.html"><i class="bi bi-arrow-right-short"></i><i class="bi bi-person-badge nav-icon"></i><span class="nav-text">About</span></a></li>
+              <li><a href="services.html"><i class="bi bi-arrow-right-short"></i><i class="bi bi-briefcase nav-icon"></i><span class="nav-text">Services</span></a></li>
+              <li><a href="properties.html"><i class="bi bi-arrow-right-short"></i><i class="bi bi-buildings nav-icon"></i><span class="nav-text">Properties</span></a></li>
+              <li><a href="contact.html"><i class="bi bi-arrow-right-short"></i><i class="bi bi-chat-dots nav-icon"></i><span class="nav-text">Contact</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 Kappstone Realty. All Rights Reserved.</p>
+        <p>© 2026 Kappstone Realty. All Rights Reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Kappstone Realty</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        ATUL MAZIRE | FOUNDER / OWNER
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
