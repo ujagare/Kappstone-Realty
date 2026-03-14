@@ -1180,11 +1180,12 @@ section,
 }
 
 .hero .hero-content {
-  width: min(100%, 620px);
+  width: min(100%, 760px);
   margin-right: auto;
   color: #ffffff;
   position: relative;
   padding: 32px 0 24px 28px;
+  text-align: left;
 }
 
 .hero .hero-content:before {
@@ -1216,7 +1217,7 @@ section,
 
 .hero h1 {
   margin: 0 0 18px;
-  max-width: 560px;
+  max-width: 700px;
   color: #ffffff;
   font-size: clamp(38px, 5vw, 70px);
   line-height: 0.95;
@@ -1232,7 +1233,7 @@ section,
 
 .hero .hero-description {
   margin: 0 0 30px;
-  max-width: 500px;
+  max-width: 660px;
   font-size: 15px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.76);
