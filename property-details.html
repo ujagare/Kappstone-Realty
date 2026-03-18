@@ -86,86 +86,145 @@
 
   <main class="main">
 
-    <!-- Real Estate 2 Section -->
-    <section id="real-estate-2" class="real-estate-2 section">
-
-      <div class="container" data-aos="fade-up">
-
-        <div class="portfolio-details-slider swiper init-swiper" id="property-slider">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "navigation": {
-                "nextEl": ".swiper-button-next",
-                "prevEl": ".swiper-button-prev"
-              },
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
+    <!-- Property Hero Section -->
+    <section class="property-hero-section">
+      <div class="property-details-slider swiper init-swiper" id="property-slider">
+        <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 600,
+            "autoplay": {
+              "delay": 5000
+            },
+            "slidesPerView": "auto",
+            "navigation": {
+              "nextEl": ".swiper-button-next",
+              "prevEl": ".swiper-button-prev"
+            },
+            "pagination": {
+              "el": ".swiper-pagination",
+              "type": "bullets",
+              "clickable": true
             }
-          </script>
-          <div class="swiper-wrapper align-items-center" id="property-slides"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-pagination"></div>
-        </div>
+          }
+        </script>
+        <div class="swiper-wrapper align-items-center" id="property-slides"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
-        <div class="row justify-content-between gy-4 mt-4">
-
+    <!-- Property Details Section -->
+    <section class="property-details-section section">
+      <div class="container">
+        <div class="row gy-5">
+          <!-- Main Content -->
           <div class="col-lg-8" data-aos="fade-up">
+            <!-- Header -->
+            <div class="property-header mb-5">
+              <h1 id="property-title" class="property-title">Property Details</h1>
+              <p id="property-tagline" class="property-tagline"></p>
+              <div class="property-meta-badges mt-3">
+                <span class="badge-status" id="property-status"></span>
+                <span class="badge-type" id="property-type"></span>
+              </div>
+            </div>
 
-            <div class="portfolio-description">
-              <h2 id="property-title">Property Details</h2>
-              <p id="property-tagline"></p>
-              <div id="property-sections"></div>
-              <p class="property-note" id="property-note"></p>
-            </div><!-- End Portfolio Description -->
-
-            <!-- Tabs -->
-            <ul class="nav nav-pills mb-3">
-              <li><a class="nav-link active" data-bs-toggle="pill" href="#real-estate-2-tab1">Video</a></li>
-              <li><a class="nav-link" data-bs-toggle="pill" href="#real-estate-2-tab2">Floor Plans</a></li>
-              <li><a class="nav-link" data-bs-toggle="pill" href="#real-estate-2-tab3">Location</a></li>
-            </ul><!-- End Tabs -->
+            <!-- Tabs Navigation -->
+            <div class="property-tabs-wrapper mb-5">
+              <ul class="nav nav-tabs property-tabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="overview-tab" data-bs-toggle="tab" data-bs-target="#overview-content" type="button" role="tab">
+                    <i class="bi bi-info-circle"></i> Overview
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="amenities-tab" data-bs-toggle="tab" data-bs-target="#amenities-content" type="button" role="tab">
+                    <i class="bi bi-star"></i> Amenities
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="specs-tab" data-bs-toggle="tab" data-bs-target="#specs-content" type="button" role="tab">
+                    <i class="bi bi-rulers"></i> Specifications
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="location-tab" data-bs-toggle="tab" data-bs-target="#location-content" type="button" role="tab">
+                    <i class="bi bi-geo-alt"></i> Location
+                  </button>
+                </li>
+              </ul>
+            </div>
 
             <!-- Tab Content -->
-            <div class="tab-content">
+            <div class="tab-content property-tab-content">
+              <!-- Overview Tab -->
+              <div class="tab-pane fade show active" id="overview-content" role="tabpanel">
+                <div id="property-sections" class="property-content"></div>
+              </div>
 
-              <div class="tab-pane fade show active" id="real-estate-2-tab1">
+              <!-- Amenities Tab -->
+              <div class="tab-pane fade" id="amenities-content" role="tabpanel">
+                <div class="amenities-grid" id="amenities-list"></div>
+              </div>
 
-              </div><!-- End Tab 1 Content -->
+              <!-- Specifications Tab -->
+              <div class="tab-pane fade" id="specs-content" role="tabpanel">
+                <div class="specs-grid" id="specs-list"></div>
+              </div>
 
-              <div class="tab-pane fade" id="real-estate-2-tab2">
-                <img src="assets/img/floor-plan.jpg" alt="" class="img-fluid">
-              </div><!-- End Tab 2 Content -->
-
-              <div class="tab-pane fade" id="real-estate-2-tab3">
-                <iframe id="property-map" style="border:0; width: 100%; height: 400px;" src="" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div><!-- End Tab 3 Content -->
-
-            </div><!-- End Tab Content -->
-
-          </div>
-
-          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
-            <div class="portfolio-info">
-              <h3>Quick Summary</h3>
-              <ul id="property-summary"></ul>
+              <!-- Location Tab -->
+              <div class="tab-pane fade" id="location-content" role="tabpanel">
+                <div class="location-wrapper">
+                  <iframe id="property-map" style="border:0; width: 100%; height: 500px; border-radius: 12px;" src="" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
             </div>
           </div>
 
+          <!-- Sidebar -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <!-- Quick Summary Card -->
+            <div class="property-summary-card sticky-top" style="top: 100px;">
+              <div class="summary-header">
+                <h3>Quick Summary</h3>
+              </div>
+              <ul class="summary-list" id="property-summary"></ul>
+              
+              <!-- CTA Buttons -->
+              <div class="summary-actions mt-4">
+                <a href="contact.html" class="btn btn-primary w-100 mb-2">
+                  <i class="bi bi-telephone"></i> Enquire Now
+                </a>
+                <a href="contact.html" class="btn btn-outline-primary w-100">
+                  <i class="bi bi-calendar-event"></i> Book Site Visit
+                </a>
+              </div>
+
+              <!-- Contact Info -->
+              <div class="summary-contact mt-4 pt-4 border-top">
+                <h5 class="mb-3">Contact Information</h5>
+                <div class="contact-item mb-3">
+                  <i class="bi bi-telephone"></i>
+                  <div>
+                    <p class="label">Phone</p>
+                    <a href="tel:+917030636565">+91 70306 36565</a>
+                  </div>
+                </div>
+                <div class="contact-item">
+                  <i class="bi bi-envelope"></i>
+                  <div>
+                    <p class="label">Email</p>
+                    <a href="mailto:sales@kappstonerealty.com">sales@kappstonerealty.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
-
-    </section><!-- /Real Estate 2 Section -->
+    </section>
 
   </main>
 

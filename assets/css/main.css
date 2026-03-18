@@ -12,13 +12,15 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Raleway", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
+:root {
   --background-color: #f8f5ef; /* App background */
   --surface-color: #ffffff; /* Card surface */
   --default-color: #2f3c37; /* Body text */
@@ -38,7 +40,7 @@
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #444444;  /* The default color of the main navmenu links */
+  --nav-color: #444444; /* The default color of the main navmenu links */
   --nav-hover-color: #ecaf1d; /* Applied to main navmenu links when they are hovered over or active */
   --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
   --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
@@ -108,7 +110,11 @@ h6 {
   border-radius: var(--pill-radius);
   font-weight: 700;
   letter-spacing: 0.02em;
-  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease,
+    color 0.2s ease;
 }
 
 .btn-primary,
@@ -203,7 +209,7 @@ h6 {
 --------------------------------------------------------------*/
 .header {
   color: #ffffff;
-  background-color: #08472C;
+  background-color: #08472c;
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 10010;
@@ -273,12 +279,12 @@ h6 {
     position: relative;
   }
 
-  .navmenu>ul>li {
+  .navmenu > ul > li {
     white-space: nowrap;
     padding: 15px 14px;
   }
 
-  .navmenu>ul>li:last-child {
+  .navmenu > ul > li:last-child {
     padding-right: 0;
   }
 
@@ -297,19 +303,19 @@ h6 {
     position: relative;
   }
 
-.navmenu a i,
-.navmenu a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-  transition: 0.3s;
-}
+  .navmenu a i,
+  .navmenu a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+    transition: 0.3s;
+  }
 
-.navmenu .nav-icon {
-  display: none;
-}
+  .navmenu .nav-icon {
+    display: none;
+  }
 
-  .navmenu>ul>li>a:before {
+  .navmenu > ul > li > a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -323,13 +329,13 @@ h6 {
   }
 
   .navmenu a:hover:before,
-  .navmenu li:hover>a:before,
+  .navmenu li:hover > a:before,
   .navmenu .active:before {
     visibility: visible;
     width: 100%;
   }
 
-  .navmenu li:hover>a,
+  .navmenu li:hover > a,
   .navmenu .active,
   .navmenu .active:focus {
     color: var(--nav-hover-color);
@@ -368,11 +374,11 @@ h6 {
 
   .navmenu .dropdown ul a:hover,
   .navmenu .dropdown ul .active:hover,
-  .navmenu .dropdown ul li:hover>a {
+  .navmenu .dropdown ul li:hover > a {
     color: var(--nav-dropdown-hover-color);
   }
 
-  .navmenu .dropdown:hover>ul {
+  .navmenu .dropdown:hover > ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
@@ -384,7 +390,7 @@ h6 {
     visibility: hidden;
   }
 
-  .navmenu .dropdown .dropdown:hover>ul {
+  .navmenu .dropdown .dropdown:hover > ul {
     opacity: 1;
     top: 0;
     left: -100%;
@@ -424,7 +430,9 @@ h6 {
     width: 100%;
     background: #ffffff;
     border-radius: 999px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition:
+      transform 0.3s ease,
+      opacity 0.3s ease;
   }
 
   .mobile-nav-toggle.is-open .mobile-nav-line:first-child {
@@ -474,12 +482,14 @@ h6 {
     padding: 16px 12px 12px;
     margin: 0;
     border-radius: 18px;
-    background: #08472C;
+    background: #08472c;
     border: 1px solid rgba(240, 182, 38, 0.16);
     box-shadow: 0 26px 60px rgba(3, 18, 12, 0.65);
     backdrop-filter: blur(8px);
     overflow-y: auto;
-    transition: transform 0.35s ease, opacity 0.35s ease;
+    transition:
+      transform 0.35s ease,
+      opacity 0.35s ease;
     z-index: 10005;
     transform: translateY(-120%);
     opacity: 0;
@@ -518,7 +528,6 @@ h6 {
     padding: 0;
   }
 
-
   .navmenu .mobile-nav-social span {
     display: block;
     font-size: 12px;
@@ -544,7 +553,10 @@ h6 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease,
+      background 0.2s ease;
   }
 
   .navmenu .mobile-cta {
@@ -558,7 +570,9 @@ h6 {
     text-transform: uppercase;
     letter-spacing: 0.05em;
     box-shadow: 0 16px 32px rgba(240, 182, 38, 0.25);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
     border: 1px solid rgba(240, 182, 38, 0.5);
   }
 
@@ -635,7 +649,6 @@ h6 {
     color: #f0b626;
   }
 
-
   .navmenu .mobile-social-links a:hover,
   .navmenu .mobile-social-links a:focus {
     transform: translateY(-2px);
@@ -664,7 +677,7 @@ h6 {
     background-color: rgba(33, 37, 41, 0.1);
   }
 
-  .navmenu .dropdown>.dropdown-active {
+  .navmenu .dropdown > .dropdown-active {
     display: block;
     background-color: rgba(33, 37, 41, 0.03);
   }
@@ -691,7 +704,7 @@ h6 {
     z-index: 10005;
   }
 
-  .mobile-nav-active .navmenu>ul {
+  .mobile-nav-active .navmenu > ul {
     transform: translateY(0);
     opacity: 1;
     visibility: visible;
@@ -704,8 +717,11 @@ h6 {
 --------------------------------------------------------------*/
 .footer {
   color: #e8f3ed;
-  background:
-    radial-gradient(circle at 10% 0%, rgba(255, 255, 255, 0.08), transparent 45%),
+  background: radial-gradient(
+      circle at 10% 0%,
+      rgba(255, 255, 255, 0.08),
+      transparent 45%
+    ),
     radial-gradient(circle at 90% 100%, rgba(6, 30, 20, 0.7), transparent 55%),
     #083b26;
   font-size: 14px;
@@ -771,7 +787,9 @@ h6 {
   background: #f0b626;
   color: #1f281e;
   font-weight: 700;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .footer .footer-newsletter button:hover {
@@ -860,7 +878,9 @@ h6 {
 
 .footer .footer-links a {
   color: rgba(232, 243, 237, 0.78);
-  transition: color 0.3s ease, transform 0.3s ease;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
   display: inline-flex;
   align-items: center;
   gap: 8px;
@@ -1014,7 +1034,8 @@ h6 {
 
 .page-title .heading {
   padding: 160px 0 80px 0;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-top: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .page-title .heading h1 {
@@ -1036,11 +1057,11 @@ h6 {
   font-weight: 600;
 }
 
-.page-title nav ol li+li {
+.page-title nav ol li + li {
   padding-left: 10px;
 }
 
-.page-title nav ol li+li::before {
+.page-title nav ol li + li::before {
   content: "/";
   display: inline-block;
   padding-right: 10px;
@@ -1060,7 +1081,6 @@ section,
 }
 
 @media (max-width: 1199px) {
-
   section,
   .section {
     scroll-margin-top: 66px;
@@ -1090,8 +1110,11 @@ section,
 # Home Services
 --------------------------------------------------------------*/
 .home-services {
-  background:
-    radial-gradient(circle at 15% 0%, rgba(240, 182, 38, 0.12), transparent 38%),
+  background: radial-gradient(
+      circle at 15% 0%,
+      rgba(240, 182, 38, 0.12),
+      transparent 38%
+    ),
     radial-gradient(circle at 90% 100%, rgba(8, 71, 44, 0.1), transparent 46%);
 }
 
@@ -1110,7 +1133,9 @@ section,
   display: flex;
   flex-direction: column;
   gap: 12px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .home-services .service-card:hover {
@@ -1214,8 +1239,13 @@ section,
 
 .hero .carousel-item:before {
   content: "";
-  background:
-    linear-gradient(90deg, rgba(7, 27, 20, 0.88) 0%, rgba(7, 27, 20, 0.68) 26%, rgba(7, 27, 20, 0.18) 58%, rgba(7, 27, 20, 0.08) 100%),
+  background: linear-gradient(
+      90deg,
+      rgba(7, 27, 20, 0.88) 0%,
+      rgba(7, 27, 20, 0.68) 26%,
+      rgba(7, 27, 20, 0.18) 58%,
+      rgba(7, 27, 20, 0.08) 100%
+    ),
     linear-gradient(180deg, rgba(9, 36, 26, 0.14) 0%, rgba(9, 36, 26, 0.4) 100%);
   position: absolute;
   inset: 0;
@@ -1252,14 +1282,13 @@ section,
   position: absolute;
   inset: -48px auto -36px 0;
   width: 86px;
-  background:
-    repeating-linear-gradient(
-      90deg,
-      rgba(255, 255, 255, 0.08) 0,
-      rgba(255, 255, 255, 0.08) 2px,
-      transparent 2px,
-      transparent 6px
-    );
+  background: repeating-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.08) 0,
+    rgba(255, 255, 255, 0.08) 2px,
+    transparent 2px,
+    transparent 6px
+  );
   border-radius: 0 0 18px 18px;
   opacity: 0.7;
 }
@@ -1347,7 +1376,10 @@ section,
   align-items: center;
   justify-content: center;
   gap: 8px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .hero .hero-search-btn:hover {
@@ -1375,7 +1407,6 @@ section,
 }
 
 @media (min-width: 1024px) {
-
   .hero .carousel-control-prev,
   .hero .carousel-control-next {
     width: 5%;
@@ -1607,7 +1638,10 @@ section,
   gap: 10px;
   font-size: 14px;
   font-weight: 700;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .services-page .services-btn:hover {
@@ -2250,8 +2284,11 @@ section,
 .about-page .about-hero .heading {
   position: relative;
   overflow: hidden;
-  background:
-    linear-gradient(180deg, rgba(4, 18, 12, 0.65), rgba(4, 18, 12, 0.35)),
+  background: linear-gradient(
+      180deg,
+      rgba(4, 18, 12, 0.65),
+      rgba(4, 18, 12, 0.35)
+    ),
     url("assets/img/hero-carousel/hero-carousel-1.jpg");
   background-size: cover;
   background-position: center;
@@ -2266,7 +2303,11 @@ section,
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(120deg, rgba(0, 0, 0, 0.45), rgba(8, 71, 44, 0.15));
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.45),
+    rgba(8, 71, 44, 0.15)
+  );
   opacity: 1;
 }
 
@@ -2277,7 +2318,11 @@ section,
   width: 220px;
   height: 220px;
   border-radius: 32px;
-  background: radial-gradient(circle at top, rgba(240, 182, 38, 0.35), rgba(240, 182, 38, 0));
+  background: radial-gradient(
+    circle at top,
+    rgba(240, 182, 38, 0.35),
+    rgba(240, 182, 38, 0)
+  );
   opacity: 0.8;
   pointer-events: none;
 }
@@ -2297,7 +2342,9 @@ section,
 .about-page .about-hero-content:hover {
   transform: translateY(-2px);
   box-shadow: 0 32px 70px rgba(3, 12, 9, 0.55);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .about-page .about-hero-stats {
@@ -2315,7 +2362,9 @@ section,
   display: grid;
   gap: 4px;
   box-shadow: 0 14px 30px rgba(3, 12, 9, 0.25);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .about-page .about-hero-stat strong {
@@ -2350,7 +2399,11 @@ section,
   width: 180px;
   height: 180px;
   border-radius: 28px;
-  background: linear-gradient(135deg, rgba(240, 182, 38, 0.24), rgba(8, 71, 44, 0.16));
+  background: linear-gradient(
+    135deg,
+    rgba(240, 182, 38, 0.24),
+    rgba(8, 71, 44, 0.16)
+  );
   filter: blur(0.2px);
   transform: rotate(12deg);
   z-index: 0;
@@ -2477,9 +2530,9 @@ section,
   margin-bottom: 18px;
 }
 
-.about-page .about .content>p,
+.about-page .about .content > p,
 .about-page .founder-copy p,
-.about-page .choose-copy>p {
+.about-page .choose-copy > p {
   color: #4f5552;
   font-size: 16px;
   line-height: 1.9;
@@ -2860,14 +2913,15 @@ section,
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
 }
 
-.service-details .service-box+.service-box {
+.service-details .service-box + .service-box {
   margin-top: 30px;
 }
 
 .service-details .service-box h4 {
   font-size: 20px;
   font-weight: 700;
-  border-bottom: 2px solid color-mix(in srgb, var(--default-color), transparent 92%);
+  border-bottom: 2px solid
+    color-mix(in srgb, var(--default-color), transparent 92%);
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
@@ -2916,7 +2970,8 @@ section,
   align-items: center;
   padding: 10px 0;
   transition: 0.3s;
-  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-top: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .service-details .download-catalog a:first-child {
@@ -3108,7 +3163,9 @@ section,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .contact-page .contact-social-links a:hover {
@@ -3165,7 +3222,10 @@ section,
   align-items: center;
   gap: 8px;
   box-shadow: 0 18px 34px rgba(240, 182, 38, 0.28);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .contact-page .contact-submit:hover {
@@ -3174,12 +3234,12 @@ section,
   box-shadow: 0 22px 40px rgba(240, 182, 38, 0.32);
 }
 
-.contact-page .php-email-form button[type=submit] {
+.contact-page .php-email-form button[type="submit"] {
   background: transparent;
   padding: 0;
 }
 
-.contact-page .php-email-form button[type=submit]:hover {
+.contact-page .php-email-form button[type="submit"]:hover {
   background: transparent;
 }
 
@@ -3205,7 +3265,7 @@ section,
   }
 }
 
-.contact .info-item+.info-item {
+.contact .info-item + .info-item {
   margin-top: 40px;
 }
 
@@ -3240,31 +3300,35 @@ section,
   height: 100%;
 }
 
-.contact .php-email-form input[type=text],
-.contact .php-email-form input[type=email],
+.contact .php-email-form input[type="text"],
+.contact .php-email-form input[type="email"],
 .contact .php-email-form textarea {
   font-size: 14px;
   padding: 10px 15px;
   box-shadow: none;
   border-radius: 0;
   color: var(--default-color);
-  background-color: color-mix(in srgb, var(--background-color), transparent 50%);
+  background-color: color-mix(
+    in srgb,
+    var(--background-color),
+    transparent 50%
+  );
   border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 }
 
-.contact .php-email-form input[type=text]:focus,
-.contact .php-email-form input[type=email]:focus,
+.contact .php-email-form input[type="text"]:focus,
+.contact .php-email-form input[type="email"]:focus,
 .contact .php-email-form textarea:focus {
   border-color: var(--accent-color);
 }
 
-.contact .php-email-form input[type=text]::placeholder,
-.contact .php-email-form input[type=email]::placeholder,
+.contact .php-email-form input[type="text"]::placeholder,
+.contact .php-email-form input[type="email"]::placeholder,
 .contact .php-email-form textarea::placeholder {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   color: var(--contrast-color);
   background: var(--accent-color);
   border: 0;
@@ -3273,7 +3337,7 @@ section,
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
 }
 
@@ -3281,8 +3345,11 @@ section,
 # FAQ Section
 --------------------------------------------------------------*/
 .faq .faq-intro {
-  background:
-    linear-gradient(135deg, rgba(8, 71, 44, 0.06), rgba(240, 182, 38, 0.08)),
+  background: linear-gradient(
+      135deg,
+      rgba(8, 71, 44, 0.06),
+      rgba(240, 182, 38, 0.08)
+    ),
     #ffffff;
   border-radius: 24px;
   padding: 30px;
@@ -3303,13 +3370,16 @@ section,
 }
 
 .faq .faq-cta {
-  background: #08472C;
+  background: #08472c;
   color: #ffffff;
   border-radius: 999px;
   padding: 10px 22px;
   font-weight: 700;
   box-shadow: 0 16px 30px rgba(8, 71, 44, 0.18);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .faq .faq-cta:hover {
@@ -3374,9 +3444,16 @@ section,
 }
 
 .faq {
-  background:
-    radial-gradient(circle at 20% 0%, rgba(8, 71, 44, 0.08), transparent 45%),
-    radial-gradient(circle at 80% 100%, rgba(240, 182, 38, 0.12), transparent 55%);
+  background: radial-gradient(
+      circle at 20% 0%,
+      rgba(8, 71, 44, 0.08),
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 80% 100%,
+      rgba(240, 182, 38, 0.12),
+      transparent 55%
+    );
 }
 
 .faq .section-title h2 {
@@ -3419,7 +3496,11 @@ section,
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 0, 0, 0.9) 75%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 25%,
+    rgba(0, 0, 0, 0.9) 75%
+  );
   z-index: 2;
 }
 
@@ -3497,13 +3578,16 @@ section,
   min-height: 54px;
   padding: 0 28px;
   border-radius: 999px;
-  background-color: #08472C;
+  background-color: #08472c;
   color: #ffffff;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.02em;
   box-shadow: 0 16px 35px rgba(8, 71, 44, 0.22);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    background-color 0.3s ease;
 }
 
 .real-estate .properties-cta-btn i {
@@ -3702,7 +3786,13 @@ section,
 
 .properties-page .properties-hero-frame {
   background:
-    linear-gradient(90deg, rgba(7, 27, 20, 0.75) 0%, rgba(7, 27, 20, 0.55) 40%, rgba(7, 27, 20, 0.2) 70%, rgba(7, 27, 20, 0.08) 100%),
+    linear-gradient(
+      90deg,
+      rgba(7, 27, 20, 0.75) 0%,
+      rgba(7, 27, 20, 0.55) 40%,
+      rgba(7, 27, 20, 0.2) 70%,
+      rgba(7, 27, 20, 0.08) 100%
+    ),
     url("../img/properties/property-hero.jpg") center/cover no-repeat;
   border-radius: 28px;
   min-height: 360px;
@@ -3863,7 +3953,9 @@ section,
   align-items: center;
   justify-content: center;
   color: #7b1b2a;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .properties-page .properties-fav:hover {
@@ -4022,7 +4114,6 @@ section,
 }
 
 @media (max-width: 575px) {
-
   .real-estate-2 .swiper-button-prev,
   .real-estate-2 .swiper-button-next {
     display: none;
@@ -4233,10 +4324,11 @@ section,
 }
 
 .real-estate-2 .nav-pills {
-  border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  border-bottom: 1px solid
+    color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
-.real-estate-2 .nav-pills li+li {
+.real-estate-2 .nav-pills li + li {
   margin-left: 40px;
 }
 
@@ -4279,3 +4371,438 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Property Details Page - Premium Styling
+--------------------------------------------------------------*/
+
+/* Property Hero Section */
+.property-hero-section {
+  position: relative;
+  height: 600px;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.property-details-slider {
+  height: 100%;
+}
+
+.property-details-slider .swiper-slide {
+  height: 600px;
+  overflow: hidden;
+}
+
+.property-details-slider .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.property-details-slider .swiper-button-prev,
+.property-details-slider .swiper-button-next {
+  background: rgba(255, 255, 255, 0.9);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: var(--accent-color);
+  transition: all 0.3s ease;
+}
+
+.property-details-slider .swiper-button-prev:hover,
+.property-details-slider .swiper-button-next:hover {
+  background: var(--accent-color);
+  color: white;
+  transform: scale(1.1);
+}
+
+.property-details-slider .swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.7);
+  opacity: 1;
+}
+
+.property-details-slider .swiper-pagination-bullet-active {
+  background: white;
+}
+
+/* Property Details Section */
+.property-details-section {
+  padding: 60px 0;
+  background: var(--background-color);
+}
+
+/* Property Header */
+.property-header {
+  border-bottom: 2px solid var(--brand-100);
+  padding-bottom: 30px;
+}
+
+.property-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--heading-color);
+}
+
+.property-tagline {
+  font-size: 1.1rem;
+  color: var(--default-color);
+  font-weight: 500;
+}
+
+.property-meta-badges {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.badge-status,
+.badge-type {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: var(--pill-radius);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.badge-status {
+  background: var(--brand-100);
+  color: var(--accent-color);
+}
+
+.badge-type {
+  background: rgba(209, 139, 44, 0.1);
+  color: var(--gold-500);
+}
+
+/* Property Tabs */
+.property-tabs-wrapper {
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.property-tabs {
+  border: none;
+  gap: 0;
+}
+
+.property-tabs .nav-link {
+  border: none;
+  color: var(--default-color);
+  font-weight: 600;
+  padding: 16px 24px;
+  position: relative;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.property-tabs .nav-link:hover {
+  color: var(--accent-color);
+}
+
+.property-tabs .nav-link.active {
+  color: var(--accent-color);
+  background: transparent;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.property-tab-content {
+  padding: 40px 0;
+}
+
+/* Property Content */
+.property-content {
+  display: grid;
+  gap: 30px;
+}
+
+.property-section {
+  background: var(--surface-color);
+  padding: 30px;
+  border-radius: var(--card-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.property-section:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.property-section h3 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.property-section h3::before {
+  content: "";
+  width: 4px;
+  height: 24px;
+  background: var(--accent-color);
+  border-radius: 2px;
+}
+
+.property-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.property-section li {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.property-section li:last-child {
+  border-bottom: none;
+}
+
+.property-section li::before {
+  content: "✓";
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+
+/* Amenities Grid */
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.amenity-item {
+  background: var(--surface-color);
+  padding: 24px;
+  border-radius: var(--card-radius);
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.amenity-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.amenity-item i {
+  font-size: 2rem;
+  color: var(--accent-color);
+  margin-bottom: 12px;
+}
+
+.amenity-item p {
+  margin: 0;
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+/* Specs Grid */
+.specs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.spec-item {
+  background: var(--surface-color);
+  padding: 24px;
+  border-radius: var(--card-radius);
+  border-left: 4px solid var(--accent-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.spec-item .label {
+  font-size: 0.9rem;
+  color: var(--default-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.spec-item .value {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--heading-color);
+}
+
+/* Location Wrapper */
+.location-wrapper {
+  background: var(--surface-color);
+  padding: 20px;
+  border-radius: var(--card-radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Property Summary Card */
+.property-summary-card {
+  background: var(--surface-color);
+  border-radius: var(--card-radius);
+  padding: 30px;
+  box-shadow: var(--shadow-lg);
+  border-top: 4px solid var(--accent-color);
+}
+
+.summary-header {
+  border-bottom: 2px solid var(--brand-100);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.summary-header h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: var(--heading-color);
+}
+
+.summary-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.summary-list li {
+  padding: 16px 0;
+  border-bottom: 1px solid #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-list li:last-child {
+  border-bottom: none;
+}
+
+.summary-list .label {
+  font-weight: 600;
+  color: var(--default-color);
+  font-size: 0.95rem;
+}
+
+.summary-list .value {
+  font-weight: 700;
+  color: var(--heading-color);
+  font-size: 1rem;
+}
+
+/* Summary Actions */
+.summary-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.summary-actions .btn {
+  padding: 12px 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.summary-actions .btn-primary {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.summary-actions .btn-primary:hover {
+  background: var(--brand-700);
+  border-color: var(--brand-700);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(11, 90, 56, 0.3);
+}
+
+.summary-actions .btn-outline-primary {
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.summary-actions .btn-outline-primary:hover {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+
+/* Summary Contact */
+.summary-contact h5 {
+  font-size: 1.1rem;
+  color: var(--heading-color);
+  font-weight: 700;
+}
+
+.contact-item {
+  display: flex;
+  gap: 12px;
+}
+
+.contact-item i {
+  font-size: 1.3rem;
+  color: var(--accent-color);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.contact-item .label {
+  font-size: 0.85rem;
+  color: var(--default-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.contact-item a {
+  font-weight: 600;
+  color: var(--heading-color);
+  display: block;
+  margin-top: 4px;
+}
+
+.contact-item a:hover {
+  color: var(--accent-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .property-hero-section {
+    height: 400px;
+  }
+
+  .property-details-slider .swiper-slide {
+    height: 400px;
+  }
+
+  .property-title {
+    font-size: 1.8rem;
+  }
+
+  .property-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .property-tabs .nav-link {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+  }
+
+  .amenities-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .specs-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .property-summary-card {
+    position: static !important;
+    margin-top: 30px;
+  }
+}
