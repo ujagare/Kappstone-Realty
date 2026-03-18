@@ -1,448 +1,423 @@
 {
-  "properties": [
-    {
-      "id": "purti-law-college-road",
-      "name": "PURTI",
-      "tagline": "Premium 3 BHK Residences",
-      "location": "Law College Road (Shanti Sheela Society Lane), Pune 411004",
-      "type": "Residential",
-      "price_display": "On Request",
-      "area_display": "1438-1471 sqft (Carpet)",
-      "status": "Under Construction",
-      "possession": "Target Dec 2027 (RERA June 2028)",
-      "map": "https://maps.app.goo.gl/MKz7wN9gCitgrewg7",
-      "images": [
-        "assets/img/purti/purti_page02_img01.png",
-        "assets/img/purti/purti_page03_img01.jpeg",
-        "assets/img/purti/purti_page03_img02.jpeg",
-        "assets/img/purti/purti_page04_img01.jpeg",
-        "assets/img/purti/purti_page04_img02.jpeg",
-        "assets/img/purti/purti_page05_img03.jpeg",
-        "assets/img/purti/purti_page06_img10.png"
-      ],
-      "sections": [
-        {
-          "title": "Project Highlights",
-          "items": [
-            "Building: P+7 floors",
-            "Total flats: 14",
-            "Flats available: 5 (subject to change)",
-            "3 BHK carpet areas: 1438 sqft and 1471 sqft",
-            "Parking: 2 covered mechanical puzzle spots per 3 BHK",
-            "MahaRERA: PR1260002501388"
-          ]
-        },
-        {
-          "title": "Availability",
-          "items": [
-            "3 BHK 1438 sqft: Flats 101, 201, 301, 701",
-            "3 BHK 1471 sqft: Flat 102",
-            "Targeted possession: Dec 2027",
-            "RERA possession: June 2028"
-          ]
-        },
-        {
-          "title": "Specifications",
-          "items": [
-            "AAC blockwork with POP/Gypsum finish",
-            "Polycab concealed wiring and Legrand switches",
-            "UPVC windows with safety grills",
-            "Vitrified tiles in living/dining/kitchen",
-            "Wooden flooring in master bedroom",
-            "Kohler fittings and premium sanitary",
-            "12 ft granite kitchen platform with designer dado tiles"
-          ]
-        },
-        {
-          "title": "Amenities & Features",
-          "items": [
-            "Security cabin with intercom and CCTV",
-            "Video door phones in every flat",
-            "Stretcher lift (13-person capacity)",
-            "Solar water heating with heat pump",
-            "Rainwater harvesting (PMC norms)",
-            "Two covered car parking",
-            "Ample water storage with borewell and softening plant"
-          ]
-        },
-        {
-          "title": "Contact",
-          "items": [
-            "Phone: 020-3504-2100",
-            "Email: sales@rajeshvyasgroup.com",
-            "Website: www.vyasbuildcon.com",
-            "Office: Vyas Buildcon Pvt. Ltd., 4th Floor, Geetai Sankul, Above Reliance Digital, Ideal Colony, Paud Road, Kothrud, Pune 411038",
-            "Working hours: 10:00 am to 6:30 pm"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "anudatta-rambaug-colony",
-      "name": "ANUDATTA",
-      "tagline": "Premium 2 & 3 BHK Residences",
-      "location": "Shivchaitanya Hall, Rambaug Colony (Near Anand Nagar Metro Station), Paud Road, Pune",
-      "type": "Residential",
-      "price_display": "On Request",
-      "area_display": "878-1110 sqft (Carpet)",
-      "status": "Under Construction",
-      "possession": "RERA Dec 2027",
-      "map": "https://maps.app.goo.gl/dJhgLKnPLgrMAPDs6",
-      "images": [
-        "assets/img/anudatta/anudatta_page02_img01.jpeg",
-        "assets/img/anudatta/anudatta_page03_img01.jpeg",
-        "assets/img/anudatta/anudatta_page03_img02.jpeg",
-        "assets/img/anudatta/anudatta_page03_img03.jpeg",
-        "assets/img/anudatta/anudatta_page04_img01.jpeg",
-        "assets/img/anudatta/anudatta_page05_img01.jpeg",
-        "assets/img/anudatta/anudatta_page06_img01.jpeg",
-        "assets/img/anudatta/anudatta_page07_img01.jpeg"
-      ],
-      "sections": [
-        {
-          "title": "Project Highlights",
-          "items": [
-            "Building: B + P + 14 floors",
-            "Total flats: 54",
-            "Flats available: 11 (subject to change)",
-            "MahaRERA: P52100079237"
-          ]
-        },
-        {
-          "title": "Availability",
-          "items": [
-            "3 BHK 1110 sqft: 303, 503, 603, 703, 803, 903",
-            "3 BHK 1100 sqft: 202",
-            "2 BHK 878 sqft: 604, 804, 1004, 1304"
-          ]
-        },
-        {
-          "title": "Parking",
-          "items": [
-            "1 covered mechanical puzzle parking for 2 BHK",
-            "2 covered mechanical puzzle parking for 3 BHK",
-            "Dedicated basement for 2-wheeler parking"
-          ]
-        },
-        {
-          "title": "Amenities",
-          "items": [
-            "Multipurpose hall",
-            "Work-from-home setup",
-            "Terrace amenities"
-          ]
-        },
-        {
-          "title": "Contact",
-          "items": [
-            "Phone: 020-3504-2100",
-            "Email: sales@rajeshvyasgroup.com",
-            "Website: www.vyasbuildcon.com",
-            "Office: Vyas Buildcon Pvt. Ltd., 4th Floor, Geetai Sankul, Above Reliance Digital, Ideal Colony, Paud Road, Kothrud, Pune 411038"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "nfs-kothrud",
-      "name": "NFS Kothrud",
-      "tagline": "4, 3 & 2 BHK Luxury Homes",
-      "location": "Kothrud, Pune (Near Vanaz Metro Station)",
-      "type": "Residential",
-      "price_display": "On Request",
-      "area_display": "761-1777 sqft (Carpet)",
-      "status": "Ongoing",
-      "possession": "On Request",
-      "map": "https://www.google.com/maps?q=Vanaz%20Metro%20Station%20Kothrud%20Pune",
-      "images": [
-        "assets/img/nfs/nfs_page09_img01.jpeg",
-        "assets/img/nfs/nfs_page15_img02.jpeg",
-        "assets/img/nfs/nfs_page10_img02.jpeg",
-        "assets/img/nfs/nfs_page14_img03.jpeg",
-        "assets/img/nfs/nfs_page16_img02.jpeg",
-        "assets/img/nfs/nfs_page08_img02.jpeg",
-        "assets/img/nfs/nfs_page13_img02.jpeg",
-        "assets/img/nfs/nfs_page12_img05.jpeg"
-      ],
-      "sections": [
-        {
-          "title": "Project Highlights",
-          "items": [
-            "27-storey landmark near Vanaz Metro Station",
-            "4-level parking",
-            "One of the tallest in Kothrud",
-            "MahaRERA: P52100055935"
-          ]
-        },
-        {
-          "title": "Configurations",
-          "items": [
-            "2 BHK: 761, 780, 872, 879, 898 sqft",
-            "3 BHK: 1008, 1052, 1156, 1262, 1388 sqft",
-            "4 BHK: 1777 sqft"
-          ]
-        },
-        {
-          "title": "Amenities",
-          "items": [
-            "Swimming pool & kids pool",
-            "Gymnasium, indoor games, yoga / zumba",
-            "Multipurpose hall, creche",
-            "Outdoor fitness, reflexology pathway",
-            "Clubhouse, guest bedrooms, lounge decks"
-          ]
-        },
-        {
-          "title": "Lifestyle Zones",
-          "items": [
-            "Tera (wellness zone)",
-            "Pulse (fitness zone)",
-            "Elan (social hub)",
-            "Alto (open-air lounges)"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "rohan-saroha",
-      "name": "Rohan Saroha",
-      "tagline": "Views You'll Love - Premium Hillside Living",
-      "location": "Near Chandani Chowk, Kothrud - Bavdhan belt, Pune",
-      "type": "Residential",
-      "price_display": "On Request",
-      "area_display": "2-4 BHK, 836-1549 sqft",
-      "status": "Under Construction",
-      "possession": "On Request",
-      "map": "https://www.google.com/maps?q=Chandani%20Chowk%20Pune",
-      "images": [
-        "assets/img/rohan-saroha/rohan_saroha_page13_img01.jpeg",
-        "assets/img/rohan-saroha/rohan_saroha_page12_img01.jpeg",
-        "assets/img/rohan-saroha/rohan_saroha_page23_img01.jpeg",
-        "assets/img/rohan-saroha/rohan_saroha_page08_img01.jpeg",
-        "assets/img/rohan-saroha/rohan_saroha_page11_img01.jpeg",
-        "assets/img/rohan-saroha/rohan_saroha_page16_img01.jpeg"
-      ],
-      "sections": [
-        {
-          "title": "Project Highlights",
-          "items": [
-            "Spread across 5.7 acres",
-            "Two towers of 16 and 15 floors",
-            "Around 589 apartments",
-            "Part of 100+ acre hillside township"
-          ]
-        },
-        {
-          "title": "Configurations",
-          "items": [
-            "2 BHK: 836 - 969 sqft",
-            "3 BHK: 1075 - 1130 sqft",
-            "4 BHK: 1536 - 1549 sqft"
-          ]
-        },
-        {
-          "title": "Amenities",
-          "items": [
-            "Swimming pool with kids pool",
-            "Gymnasium, badminton court",
-            "Multipurpose hall, guest rooms",
-            "Amphitheatre, yoga & meditation decks",
-            "Oxygen park, aroma garden, reflexology path",
-            "Co-working space, pet zone, play areas"
-          ]
-        },
-        {
-          "title": "Connectivity",
-          "items": [
-            "Chandani Chowk: 10 mins",
-            "Kothrud: 16 mins",
-            "Balewadi High Street: 23 mins",
-            "Hinjawadi IT Park: 30 mins",
-            "Pune Airport: 57 mins"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "ashwamedh",
-      "name": "Ashwamedh",
-      "tagline": "Project Details Available",
-      "location": "Pune",
-      "type": "Residential",
-      "price_display": "On Request",
-      "area_display": "Details in brochure",
-      "status": "Details available",
-      "possession": "On Request",
-      "map": "https://www.google.com/maps?q=Pune",
-      "images": [
-        "assets/img/ashwamedh/ashwamedh_page01_img01.jpeg",
-        "assets/img/ashwamedh/ashwamedh_page03_img01.jpeg",
-        "assets/img/ashwamedh/ashwamedh_page07_img01.jpeg",
-        "assets/img/ashwamedh/ashwamedh_page08_img01.jpeg",
-        "assets/img/ashwamedh/ashwamedh_page06_img01.png",
-        "assets/img/ashwamedh/ashwamedh_page02_img02.jpeg"
-      ],
-      "sections": [
-        {
-          "title": "Project Highlights",
-          "items": [
-            "Project details available in brochure",
-            "Floor plans and layouts included"
-          ]
-        },
-        {
-          "title": "Floor Plans",
-          "items": [
-            "Detailed room sizes and layouts",
-            "Multiple configuration layouts"
-          ]
-        },
-        {
-          "title": "Contact",
-          "items": [
-            "For pricing, location, and availability please contact our team"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "kingsbay-farmhouse-plotting",
-      "name": "Kingsbay (Farmhouse Plotting)",
-      "tagline": "Agriculture / Farm House Plotting",
-      "location": "Khechare (Mulshi), Pune",
-      "type": "Plotting",
-      "price_display": "Rs. 1.65 Cr + taxes",
-      "area_display": "1 Acre onwards",
-      "status": "Phase 1",
-      "possession": "Phase 1",
-      "map": "https://www.google.com/maps-q=Khechare%20Mulshi%20Pune",
-      "images": [
-        "assets/img/properties/featured-3.jpg"
-      ],
-      "sections": [
-        {
-          "title": "Project Highlights",
-          "items": [
-            "Phase 1 Area: 125 Acres",
-            "Total Plots: 100+",
-            "Individual Plot Size: 1 Acre onwards",
-            "Price: Rs. 1.65 Cr + taxes"
-          ]
-        },
-        {
-          "title": "Features & Amenities",
-          "items": [
-            "Grand entrance gate with security",
-            "12 m & 9 m concrete roads",
-            "Roadside fencing, lights, flower beds",
-            "Water & electricity to individual plots",
-            "Clubhouse, multipurpose area, cafeteria",
-            "Gazebo and amphitheatre"
-          ]
-        },
-        {
-          "title": "Special USP",
-          "items": [
-            "Gated community",
-            "Mountain and water views",
-            "Surrounded by trees & forest",
-            "Hiking & trekking",
-            "Upcoming 6-lane NH road",
-            "In-house farmhouse development team"
-          ]
-        },
-        {
-          "title": "Legal",
-          "items": [
-            "Agriculture / farm house plots",
-            "Individual 7/12",
-            "Clear title",
-            "Easy documentation & registration"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "teerth-technospace",
-      "name": "Teerth Technospace",
-      "tagline": "Premium Office Space for Sale",
-      "location": "Baner, Pune (Next to B.U. Bhandari Mercedes-Benz)",
-      "type": "Commercial Office",
-      "price_display": "Rs. 4 Cr",
-      "area_display": "2,819 sq. ft. (Saleable)",
-      "status": "Ready to move",
-      "possession": "Ready to move",
-      "map": "https://www.google.com/maps-q=Teerth%20Technospace%20Baner%20Pune",
-      "images": [
-        "assets/img/properties/listing-1.jpg"
-      ],
-      "sections": [
-        {
-          "title": "Project Highlights",
-          "items": [
-            "Fully furnished, ready office",
-            "Saleable Area: 2,819 sq. ft.",
-            "Carpet Area: 1,941 sq. ft.",
-            "Prime commercial location"
-          ]
-        },
-        {
-          "title": "Pricing",
-          "items": [
-            "Price: Rs. 4 Cr",
-            "Brokerage fee applicable"
-          ]
-        },
-        {
-          "title": "Location Advantage",
-          "items": [
-            "Next to B.U. Bhandari Mercedes-Benz showroom",
-            "On Mumbai-Bangalore Highway",
-            "Baner commercial hub"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "skf-channel-partner",
-      "name": "SKF Channel Partner",
-      "tagline": "Multiple premium listings",
-      "location": "Prabhat Road, Model Colony, Shivaji Nagar, Kothrud",
-      "type": "Portfolio",
-      "price_display": "Rs. 1.33 Cr - Rs. 8.20 Cr",
-      "area_display": "221-2547 sqft",
-      "status": "Multiple",
-      "possession": "June 2025 - Dec 2027",
-      "map": "https://www.google.com/maps-q=Prabhat%20Road%20Pune",
-      "images": [
-        "assets/img/skf/skf_page01_img01.jpeg",
-        "assets/img/skf/skf_page02_img01.jpeg",
-        "assets/img/skf/skf_page03_img01.jpeg",
-        "assets/img/skf/skf_page04_img01.jpeg",
-        "assets/img/skf/skf_page05_img01.jpeg",
-        "assets/img/skf/skf_page06_img01.jpeg",
-        "assets/img/skf/skf_page07_img01.jpeg",
-        "assets/img/skf/skf_page08_img01.jpeg",
-        "assets/img/skf/skf_page10_img01.jpeg",
-        "assets/img/skf/skf_page12_img01.jpeg"
-      ],
-      "sections": [
-        {
-          "title": "Highlights",
-          "items": [
-            "10 premium projects",
-            "2 BHK to 6 BHK and offices",
-            "Prime locations around Prabhat Road"
-          ]
-        },
-        {
-          "title": "Price Range",
-          "items": [
-            "From Rs. 1.33 Cr to Rs. 8.20 Cr",
-            "Society corpus fund and legal fees extra where mentioned"
-          ]
-        }
-      ]
-    }
-  ]
+    "properties":  [
+                       {
+                           "id":  "purti-law-college-road",
+                           "name":  "PURTI",
+                           "tagline":  "Premium 3 BHK Residences",
+                           "location":  "Law College Road (Shanti Sheela Society Lane), Pune 411004",
+                           "type":  "Residential",
+                           "price_display":  "On Request",
+                           "area_display":  "1438-1471 sqft (Carpet)",
+                           "status":  "Under Construction",
+                           "possession":  "Target Dec 2027 (RERA June 2028)",
+                           "map":  "https://maps.app.goo.gl/MKz7wN9gCitgrewg7",
+                           "images":  [
+                                          "assets/img/purti/purti_page02_img01.png",
+                                          "assets/img/purti/purti_page03_img01.jpeg",
+                                          "assets/img/purti/purti_page03_img02.jpeg",
+                                          "assets/img/purti/purti_page04_img01.jpeg",
+                                          "assets/img/purti/purti_page04_img02.jpeg",
+                                          "assets/img/purti/purti_page05_img03.jpeg",
+                                          "assets/img/purti/purti_page06_img10.png"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Building: P+7 floors",
+                                                              "Total flats: 14",
+                                                              "Flats available: 5 (subject to change)",
+                                                              "3 BHK carpet areas: 1438 sqft and 1471 sqft",
+                                                              "Parking: 2 covered mechanical puzzle spots per 3 BHK",
+                                                              "MahaRERA: PR1260002501388"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Availability",
+                                                "items":  [
+                                                              "3 BHK 1438 sqft: Flats 101, 201, 301, 701",
+                                                              "3 BHK 1471 sqft: Flat 102",
+                                                              "Targeted possession: Dec 2027",
+                                                              "RERA possession: June 2028"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Specifications",
+                                                "items":  [
+                                                              "AAC blockwork with POP/Gypsum finish",
+                                                              "Polycab concealed wiring and Legrand switches",
+                                                              "UPVC windows with safety grills",
+                                                              "Vitrified tiles in living/dining/kitchen",
+                                                              "Wooden flooring in master bedroom",
+                                                              "Kohler fittings and premium sanitary",
+                                                              "12 ft granite kitchen platform with designer dado tiles"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Amenities \u0026 Features",
+                                                "items":  [
+                                                              "Security cabin with intercom and CCTV",
+                                                              "Video door phones in every flat",
+                                                              "Stretcher lift (13-person capacity)",
+                                                              "Solar water heating with heat pump",
+                                                              "Rainwater harvesting (PMC norms)",
+                                                              "Two covered car parking",
+                                                              "Ample water storage with borewell and softening plant"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "anudatta-rambaug-colony",
+                           "name":  "ANUDATTA",
+                           "tagline":  "Premium 2 \u0026 3 BHK Residences",
+                           "location":  "Shivchaitanya Hall, Rambaug Colony (Near Anand Nagar Metro Station), Paud Road, Pune",
+                           "type":  "Residential",
+                           "price_display":  "On Request",
+                           "area_display":  "878-1110 sqft (Carpet)",
+                           "status":  "Under Construction",
+                           "possession":  "RERA Dec 2027",
+                           "map":  "https://maps.app.goo.gl/dJhgLKnPLgrMAPDs6",
+                           "images":  [
+                                          "assets/img/anudatta/anudatta_page02_img01.jpeg",
+                                          "assets/img/anudatta/anudatta_page03_img01.jpeg",
+                                          "assets/img/anudatta/anudatta_page03_img02.jpeg",
+                                          "assets/img/anudatta/anudatta_page03_img03.jpeg",
+                                          "assets/img/anudatta/anudatta_page04_img01.jpeg",
+                                          "assets/img/anudatta/anudatta_page05_img01.jpeg",
+                                          "assets/img/anudatta/anudatta_page06_img01.jpeg",
+                                          "assets/img/anudatta/anudatta_page07_img01.jpeg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Building: B + P + 14 floors",
+                                                              "Total flats: 54",
+                                                              "Flats available: 11 (subject to change)",
+                                                              "MahaRERA: P52100079237"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Availability",
+                                                "items":  [
+                                                              "3 BHK 1110 sqft: 303, 503, 603, 703, 803, 903",
+                                                              "3 BHK 1100 sqft: 202",
+                                                              "2 BHK 878 sqft: 604, 804, 1004, 1304"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Parking",
+                                                "items":  [
+                                                              "1 covered mechanical puzzle parking for 2 BHK",
+                                                              "2 covered mechanical puzzle parking for 3 BHK",
+                                                              "Dedicated basement for 2-wheeler parking"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Amenities",
+                                                "items":  [
+                                                              "Multipurpose hall",
+                                                              "Work-from-home setup",
+                                                              "Terrace amenities"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "nfs-kothrud",
+                           "name":  "NFS Kothrud",
+                           "tagline":  "4, 3 \u0026 2 BHK Luxury Homes",
+                           "location":  "Kothrud, Pune (Near Vanaz Metro Station)",
+                           "type":  "Residential",
+                           "price_display":  "On Request",
+                           "area_display":  "761-1777 sqft (Carpet)",
+                           "status":  "Ongoing",
+                           "possession":  "On Request",
+                           "map":  "https://www.google.com/maps?q=Vanaz%20Metro%20Station%20Kothrud%20Pune",
+                           "images":  [
+                                          "assets/img/nfs/nfs_page09_img01.jpeg",
+                                          "assets/img/nfs/nfs_page15_img02.jpeg",
+                                          "assets/img/nfs/nfs_page10_img02.jpeg",
+                                          "assets/img/nfs/nfs_page14_img03.jpeg",
+                                          "assets/img/nfs/nfs_page16_img02.jpeg",
+                                          "assets/img/nfs/nfs_page08_img02.jpeg",
+                                          "assets/img/nfs/nfs_page13_img02.jpeg",
+                                          "assets/img/nfs/nfs_page12_img05.jpeg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "27-storey landmark near Vanaz Metro Station",
+                                                              "4-level parking",
+                                                              "One of the tallest in Kothrud",
+                                                              "MahaRERA: P52100055935"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Configurations",
+                                                "items":  [
+                                                              "2 BHK: 761, 780, 872, 879, 898 sqft",
+                                                              "3 BHK: 1008, 1052, 1156, 1262, 1388 sqft",
+                                                              "4 BHK: 1777 sqft"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Amenities",
+                                                "items":  [
+                                                              "Swimming pool \u0026 kids pool",
+                                                              "Gymnasium, indoor games, yoga / zumba",
+                                                              "Multipurpose hall, creche",
+                                                              "Outdoor fitness, reflexology pathway",
+                                                              "Clubhouse, guest bedrooms, lounge decks"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Lifestyle Zones",
+                                                "items":  [
+                                                              "Tera (wellness zone)",
+                                                              "Pulse (fitness zone)",
+                                                              "Elan (social hub)",
+                                                              "Alto (open-air lounges)"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "rohan-saroha",
+                           "name":  "Rohan Saroha",
+                           "tagline":  "Views You\u0027ll Love - Premium Hillside Living",
+                           "location":  "Near Chandani Chowk, Kothrud - Bavdhan belt, Pune",
+                           "type":  "Residential",
+                           "price_display":  "On Request",
+                           "area_display":  "2-4 BHK, 836-1549 sqft",
+                           "status":  "Under Construction",
+                           "possession":  "On Request",
+                           "map":  "https://www.google.com/maps?q=Chandani%20Chowk%20Pune",
+                           "images":  [
+                                          "assets/img/rohan-saroha/rohan_saroha_page13_img01.jpeg",
+                                          "assets/img/rohan-saroha/rohan_saroha_page12_img01.jpeg",
+                                          "assets/img/rohan-saroha/rohan_saroha_page23_img01.jpeg",
+                                          "assets/img/rohan-saroha/rohan_saroha_page08_img01.jpeg",
+                                          "assets/img/rohan-saroha/rohan_saroha_page11_img01.jpeg",
+                                          "assets/img/rohan-saroha/rohan_saroha_page16_img01.jpeg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Spread across 5.7 acres",
+                                                              "Two towers of 16 and 15 floors",
+                                                              "Around 589 apartments",
+                                                              "Part of 100+ acre hillside township"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Configurations",
+                                                "items":  [
+                                                              "2 BHK: 836 - 969 sqft",
+                                                              "3 BHK: 1075 - 1130 sqft",
+                                                              "4 BHK: 1536 - 1549 sqft"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Amenities",
+                                                "items":  [
+                                                              "Swimming pool with kids pool",
+                                                              "Gymnasium, badminton court",
+                                                              "Multipurpose hall, guest rooms",
+                                                              "Amphitheatre, yoga \u0026 meditation decks",
+                                                              "Oxygen park, aroma garden, reflexology path",
+                                                              "Co-working space, pet zone, play areas"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Connectivity",
+                                                "items":  [
+                                                              "Chandani Chowk: 10 mins",
+                                                              "Kothrud: 16 mins",
+                                                              "Balewadi High Street: 23 mins",
+                                                              "Hinjawadi IT Park: 30 mins",
+                                                              "Pune Airport: 57 mins"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "ashwamedh",
+                           "name":  "Ashwamedh",
+                           "tagline":  "Project Details Available",
+                           "location":  "Pune",
+                           "type":  "Residential",
+                           "price_display":  "On Request",
+                           "area_display":  "Details in brochure",
+                           "status":  "Details available",
+                           "possession":  "On Request",
+                           "map":  "https://www.google.com/maps?q=Pune",
+                           "images":  [
+                                          "assets/img/ashwamedh/ashwamedh_page01_img01.jpeg",
+                                          "assets/img/ashwamedh/ashwamedh_page03_img01.jpeg",
+                                          "assets/img/ashwamedh/ashwamedh_page07_img01.jpeg",
+                                          "assets/img/ashwamedh/ashwamedh_page08_img01.jpeg",
+                                          "assets/img/ashwamedh/ashwamedh_page06_img01.png",
+                                          "assets/img/ashwamedh/ashwamedh_page02_img02.jpeg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Project details available in brochure",
+                                                              "Floor plans and layouts included"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Floor Plans",
+                                                "items":  [
+                                                              "Detailed room sizes and layouts",
+                                                              "Multiple configuration layouts"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "kingsbay-farmhouse-plotting",
+                           "name":  "Kingsbay (Farmhouse Plotting)",
+                           "tagline":  "Agriculture / Farm House Plotting",
+                           "location":  "Khechare (Mulshi), Pune",
+                           "type":  "Plotting",
+                           "price_display":  "Rs. 1.65 Cr + taxes",
+                           "area_display":  "1 Acre onwards",
+                           "status":  "Phase 1",
+                           "possession":  "Phase 1",
+                           "map":  "https://www.google.com/maps-q=Khechare%20Mulshi%20Pune",
+                           "images":  [
+                                          "assets/img/properties/featured-3.jpg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Phase 1 Area: 125 Acres",
+                                                              "Total Plots: 100+",
+                                                              "Individual Plot Size: 1 Acre onwards",
+                                                              "Price: Rs. 1.65 Cr + taxes"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Features \u0026 Amenities",
+                                                "items":  [
+                                                              "Grand entrance gate with security",
+                                                              "12 m \u0026 9 m concrete roads",
+                                                              "Roadside fencing, lights, flower beds",
+                                                              "Water \u0026 electricity to individual plots",
+                                                              "Clubhouse, multipurpose area, cafeteria",
+                                                              "Gazebo and amphitheatre"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Special USP",
+                                                "items":  [
+                                                              "Gated community",
+                                                              "Mountain and water views",
+                                                              "Surrounded by trees \u0026 forest",
+                                                              "Hiking \u0026 trekking",
+                                                              "Upcoming 6-lane NH road",
+                                                              "In-house farmhouse development team"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Legal",
+                                                "items":  [
+                                                              "Agriculture / farm house plots",
+                                                              "Individual 7/12",
+                                                              "Clear title",
+                                                              "Easy documentation \u0026 registration"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "teerth-technospace",
+                           "name":  "Teerth Technospace",
+                           "tagline":  "Premium Office Space for Sale",
+                           "location":  "Baner, Pune (Next to B.U. Bhandari Mercedes-Benz)",
+                           "type":  "Commercial Office",
+                           "price_display":  "Rs. 4 Cr",
+                           "area_display":  "2,819 sq. ft. (Saleable)",
+                           "status":  "Ready to move",
+                           "possession":  "Ready to move",
+                           "map":  "https://www.google.com/maps-q=Teerth%20Technospace%20Baner%20Pune",
+                           "images":  [
+                                          "assets/img/properties/listing-1.jpg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Fully furnished, ready office",
+                                                              "Saleable Area: 2,819 sq. ft.",
+                                                              "Carpet Area: 1,941 sq. ft.",
+                                                              "Prime commercial location"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Pricing",
+                                                "items":  [
+                                                              "Price: Rs. 4 Cr",
+                                                              "Brokerage fee applicable"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Location Advantage",
+                                                "items":  [
+                                                              "Next to B.U. Bhandari Mercedes-Benz showroom",
+                                                              "On Mumbai-Bangalore Highway",
+                                                              "Baner commercial hub"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "skf-channel-partner",
+                           "name":  "SKF Channel Partner",
+                           "tagline":  "Multiple premium listings",
+                           "location":  "Prabhat Road, Model Colony, Shivaji Nagar, Kothrud",
+                           "type":  "Portfolio",
+                           "price_display":  "Rs. 1.33 Cr - Rs. 8.20 Cr",
+                           "area_display":  "221-2547 sqft",
+                           "status":  "Multiple",
+                           "possession":  "June 2025 - Dec 2027",
+                           "map":  "https://www.google.com/maps-q=Prabhat%20Road%20Pune",
+                           "images":  [
+                                          "assets/img/skf/skf_page01_img01.jpeg",
+                                          "assets/img/skf/skf_page02_img01.jpeg",
+                                          "assets/img/skf/skf_page03_img01.jpeg",
+                                          "assets/img/skf/skf_page04_img01.jpeg",
+                                          "assets/img/skf/skf_page05_img01.jpeg",
+                                          "assets/img/skf/skf_page06_img01.jpeg",
+                                          "assets/img/skf/skf_page07_img01.jpeg",
+                                          "assets/img/skf/skf_page08_img01.jpeg",
+                                          "assets/img/skf/skf_page10_img01.jpeg",
+                                          "assets/img/skf/skf_page12_img01.jpeg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Highlights",
+                                                "items":  [
+                                                              "10 premium projects",
+                                                              "2 BHK to 6 BHK and offices",
+                                                              "Prime locations around Prabhat Road"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Price Range",
+                                                "items":  [
+                                                              "From Rs. 1.33 Cr to Rs. 8.20 Cr",
+                                                              "Society corpus fund and legal fees extra where mentioned"
+                                                          ]
+                                            }
+                                        ]
+                       }
+                   ]
 }

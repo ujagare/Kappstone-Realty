@@ -170,21 +170,27 @@
         mapEl.src = mapEmbedUrl(item);
       }
 
-      // Initialize Swiper
-      const swiperEl = document.getElementById("property-slider");
-      if (
-        swiperEl &&
-        swiperEl.querySelector(".swiper-config") &&
-        window.Swiper
-      ) {
-        const config = JSON.parse(
-          swiperEl.querySelector(".swiper-config").innerHTML.trim(),
-        );
-        if (swiperEl.swiper) {
-          swiperEl.swiper.destroy(true, true);
+      // Initialize Swiper with delay to ensure DOM is ready
+      setTimeout(() => {
+        const swiperEl = document.getElementById("property-slider");
+        if (
+          swiperEl &&
+          swiperEl.querySelector(".swiper-config") &&
+          window.Swiper
+        ) {
+          try {
+            const config = JSON.parse(
+              swiperEl.querySelector(".swiper-config").innerHTML.trim(),
+            );
+            if (swiperEl.swiper) {
+              swiperEl.swiper.destroy(true, true);
+            }
+            new Swiper(swiperEl, config);
+          } catch (error) {
+            console.error("Swiper initialization error:", error);
+          }
         }
-        new Swiper(swiperEl, config);
-      }
+      }, 100);
     })
     .catch(() => {
       setEmptyState();
