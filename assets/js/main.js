@@ -10,6 +10,24 @@
   "use strict";
 
   /**
+   * Lenis smooth scroll
+   */
+  if (window.Lenis) {
+    document.documentElement.style.scrollBehavior = "auto";
+    const lenis = new Lenis({
+      smoothWheel: true,
+      smoothTouch: false
+    });
+
+    function raf(time) {
+      lenis.raf(time);
+      requestAnimationFrame(raf);
+    }
+
+    requestAnimationFrame(raf);
+  }
+
+  /**
    * Apply .scrolled class to the body as the page is scrolled down
    */
   function toggleScrolled() {
