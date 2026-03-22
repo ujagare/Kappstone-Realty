@@ -26,7 +26,10 @@
       rel="canonical"
       href="https://kappstonerealty.com/property-details.html"
     />
-    <meta name="keywords" content="" />
+    <meta
+      name="keywords"
+      content="property details Pune, Pune project details, apartment amenities Pune, commercial property details Pune, plotting project details, Kappstone Realty"
+    />
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
@@ -66,15 +69,38 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  </head>
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MKVMPFNG');
+  </script>
+  <!-- /Google Tag Manager -->
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C7Y06CJ72G"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-C7Y06CJ72G');
+  </script>
+  <!-- /Google Analytics -->
+</head>
 
   <body class="property-single-page">
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MKVMPFNG"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- /Google Tag Manager (noscript) -->
     <header id="header" class="header d-flex align-items-center fixed-top">
       <div
         class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
       >
         <a href="index.html" class="logo d-flex align-items-center">
-          <img src="assets/img/Kappstone-logo (1).png" alt="Kappstone Logo" />
+          <img loading="lazy" src="assets/img/Kappstone-logo (1).png" alt="Kappstone Logo" />
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -188,16 +214,43 @@
           <div class="row gy-5">
             <!-- Main Content -->
             <div class="col-lg-8" data-aos="fade-up">
-              <!-- Header -->
               <div class="property-header mb-5">
-                <h1 id="property-title" class="property-title">
-                  Property Details
-                </h1>
+                <h1 id="property-title" class="property-title">Property Details</h1>
                 <p id="property-tagline" class="property-tagline"></p>
+                <p class="property-hero-location" id="property-location-display"></p>
                 <div class="property-meta-badges mt-3">
+                  <span class="property-hot-badge" id="property-hot-badge">Hot Deal</span>
+                  <span class="property-verified-badge"><i class="bi bi-patch-check-fill"></i> Verified Listing</span>
                   <span class="badge-status" id="property-status"></span>
                   <span class="badge-type" id="property-type"></span>
+                  <span class="badge-type" id="property-rera-badge"></span>
                 </div>
+              </div>
+
+              <div class="property-info-block mb-5">
+                <div class="section-intro">
+                  <h2>Key Info</h2>
+                  <p>Important property details at a glance so buyers can quickly evaluate fit.</p>
+                </div>
+                <div class="property-price-row property-info-price-row">
+                  <div>
+                    <span class="property-price-label">Starting Price</span>
+                    <strong id="property-price-big" class="property-price-big">On Request</strong>
+                  </div>
+                  <div class="property-hero-ctas">
+                    <a href="tel:+917030636565" class="property-hero-call"><i class="bi bi-telephone-fill"></i> Call Now</a>
+                    <a href="https://wa.me/917030636565" class="property-hero-whatsapp" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                  </div>
+                </div>
+                <div class="property-key-grid" id="property-key-grid"></div>
+              </div>
+
+              <div class="property-info-block mb-5">
+                <div class="section-intro">
+                  <h2>Details</h2>
+                  <p>Structured specifications and highlights instead of mixed information.</p>
+                </div>
+                <div class="property-detail-grid" id="property-detail-grid"></div>
               </div>
 
               <!-- Tabs Navigation -->
@@ -275,11 +328,19 @@
                   id="amenities-content"
                   role="tabpanel"
                 >
+                  <div class="section-intro">
+                    <h2>Amenities</h2>
+                    <p>Key lifestyle and convenience features with quick visual scanning.</p>
+                  </div>
                   <div class="amenities-grid" id="amenities-list"></div>
                 </div>
 
                 <!-- Specifications Tab -->
                 <div class="tab-pane fade" id="specs-content" role="tabpanel">
+                  <div class="section-intro">
+                    <h2>Specifications</h2>
+                    <p>Core build, area, and technical details that help serious buyers compare better.</p>
+                  </div>
                   <div class="specs-grid" id="specs-list"></div>
                 </div>
 
@@ -289,6 +350,10 @@
                   id="location-content"
                   role="tabpanel"
                 >
+                  <div class="section-intro">
+                    <h2>Map and Location</h2>
+                    <p>Location clarity matters before enquiry, site visit, and final decision.</p>
+                  </div>
                   <div class="location-wrapper">
                     <iframe
                       id="property-map"
@@ -307,6 +372,14 @@
                   </div>
                 </div>
               </div>
+
+              <section class="property-related-section mt-5">
+                <div class="section-intro">
+                  <h2>Similar Properties</h2>
+                  <p>Explore related options to compare price, location, and inventory without leaving the journey.</p>
+                </div>
+                <div class="row gy-4" id="similar-properties"></div>
+              </section>
             </div>
 
             <!-- Sidebar -->
@@ -318,14 +391,50 @@
                 </div>
                 <ul class="summary-list" id="property-summary"></ul>
 
-                <!-- CTA Buttons -->
+                <div class="summary-trust-list" id="property-trust-list"></div>
+
                 <div class="summary-actions mt-4">
-                  <a href="contact.html" class="btn btn-primary w-100 mb-2">
+                  <a href="tel:+917030636565" class="btn btn-primary w-100 mb-2">
                     <i class="bi bi-telephone"></i> Enquire Now
+                  </a>
+                  <a
+                    href="https://wa.me/917030636565"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-success w-100 mb-2"
+                  >
+                    WhatsApp
                   </a>
                   <a href="contact.html" class="btn btn-outline-primary w-100">
                     <i class="bi bi-calendar-event"></i> Book Site Visit
                   </a>
+                </div>
+
+                <div class="property-form-card mt-4 pt-4 border-top">
+                  <h5 class="mb-3">Quick Inquiry</h5>
+                  <form action="forms/contact.php" method="post" class="php-email-form">
+                    <div class="row gy-3">
+                      <div class="col-12">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required />
+                      </div>
+                      <div class="col-12">
+                        <input type="text" name="phone" class="form-control" placeholder="Phone Number" required />
+                      </div>
+                      <div class="col-12">
+                        <input type="email" name="email" class="form-control" placeholder="Email Address" required />
+                      </div>
+                      <input type="hidden" name="subject" value="Property Inquiry - Kappstone Realty" />
+                      <div class="col-12">
+                        <textarea name="message" class="form-control" rows="4" placeholder="I want details for this property"></textarea>
+                      </div>
+                      <div class="col-12">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your inquiry has been sent. Thank you!</div>
+                        <button type="submit" class="btn btn-primary w-100">Send Inquiry</button>
+                      </div>
+                    </div>
+                  </form>
                 </div>
 
                 <!-- Contact Info -->
@@ -361,7 +470,7 @@
           <div class="col-xl-4 col-md-6">
             <div class="footer-card">
               <div class="footer-brand">
-                <img
+                <img loading="lazy"
                   src="assets/img/Kappstone-logo (1).png"
                   alt="Kappstone Realty"
                 />
@@ -375,6 +484,10 @@
               <div class="footer-item">
                 <i class="bi bi-geo-alt"></i>
                 <p>Aditya Garden City, U 1201, Warje, Pune-411058, India</p>
+              </div>
+              <div class="footer-item">
+                <i class="bi bi-briefcase"></i>
+                <p>Residential | Commercial | Plots | Strategic Partner | Project Sales | Real Estate Advisory</p>
               </div>
             </div>
           </div>
@@ -403,7 +516,7 @@
               <div class="footer-item">
                 <i class="bi bi-person-badge"></i>
                 <p>
-                  <strong>ATUL MAZIRE</strong><br /><span>Founder / Owner</span>
+                  <strong>ATUL MAZIRE</strong><br /><span>Founder / Owner</span><br /><span>RERA No: A031262504301</span>
                 </p>
               </div>
             </div>
@@ -465,6 +578,25 @@
         <div class="credits">ATUL MAZIRE | FOUNDER / OWNER</div>
       </div>
     </footer>
+
+    <div class="mobile-sticky-cta d-lg-none">
+      <a href="tel:+917030636565" class="mobile-sticky-call"
+        ><i class="bi bi-telephone-fill"></i> Call Now</a
+      >
+      <a href="https://wa.me/917030636565" class="mobile-sticky-visit"
+        target="_blank" rel="noopener noreferrer"
+        >WhatsApp</a
+      >
+    </div>
+
+    <div class="modal fade" id="propertyGalleryModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content property-gallery-modal-content">
+          <button type="button" class="btn-close btn-close-white property-gallery-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img loading="lazy" id="property-modal-image" src="" alt="Expanded property view" />
+        </div>
+      </div>
+    </div>
 
     <!-- Scroll Top -->
     <a

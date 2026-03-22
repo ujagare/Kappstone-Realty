@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
   const listEl = document.getElementById("properties-list");
   if (!listEl) return;
 
@@ -18,7 +18,7 @@
       <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="${delay}">
         <article class="featured-card">
           <div class="featured-media">
-            <img src="${image}" alt="${item.name}" class="img-fluid">
+            <img loading="lazy" src="${image}" alt="${item.name}" class="img-fluid">
             <div class="featured-overlay">
               <div class="featured-brand">
                 <div class="featured-logo">${badge}</div>
@@ -77,13 +77,13 @@
   const matchesPriceRange = (price, range) => {
     if (range === "Price Range") return true;
     const priceValue = getPriceValue(price);
-    if (range === "₹10L - ₹50L")
+    if (range === "?10L - ?50L")
       return priceValue >= 1000000 && priceValue <= 5000000;
-    if (range === "₹50L - ₹1Cr")
+    if (range === "?50L - ?1Cr")
       return priceValue >= 5000000 && priceValue <= 10000000;
-    if (range === "₹1Cr - ₹3Cr")
+    if (range === "?1Cr - ?3Cr")
       return priceValue >= 10000000 && priceValue <= 30000000;
-    if (range === "₹3Cr+") return priceValue >= 30000000;
+    if (range === "?3Cr+") return priceValue >= 30000000;
     return true;
   };
 

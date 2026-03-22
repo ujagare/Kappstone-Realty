@@ -1,4 +1,4 @@
-﻿(function () {
+(function () {
   const listEl = document.getElementById('home-properties-list');
   if (!listEl) return;
 
@@ -12,7 +12,7 @@
       <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="${delay}">
         <div class="properties-card compact">
           <div class="properties-card-media">
-            <img src="${image}" alt="${item.name}" class="img-fluid">
+            <img loading="lazy" src="${image}" alt="${item.name}" class="img-fluid">
           </div>
           <div class="properties-card-body">
             <span class="properties-price">${price}</span>
