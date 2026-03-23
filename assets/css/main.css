@@ -406,34 +406,70 @@ h6 {
 
 /* Mobile Navigation */
 @media (max-width: 1199px) {
+  .header {
+    padding: 10px 0;
+    background:
+      linear-gradient(180deg, rgba(8, 71, 44, 0.98) 0%, rgba(8, 71, 44, 0.94) 100%);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 16px 28px rgba(4, 18, 12, 0.22);
+  }
+
+  .header .container-fluid.container-xl {
+    min-height: 76px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .header .logo {
+    position: relative;
+    z-index: 10040;
+  }
+
+  .header .logo img {
+    max-height: 58px;
+  }
+
   .mobile-nav-toggle {
-    border: 0;
-    background: transparent;
-    width: 40px;
-    height: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(255, 255, 255, 0.08);
+    width: 48px;
+    height: 48px;
+    border-radius: 14px;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    gap: 8px;
+    align-items: center;
+    gap: 6px;
     margin-right: 0;
     cursor: pointer;
     padding: 0;
-    transition: transform 0.3s ease;
+    transition:
+      transform 0.3s ease,
+      background-color 0.3s ease,
+      border-color 0.3s ease,
+      box-shadow 0.3s ease;
     position: absolute;
-    right: 16px;
+    right: 14px;
     top: 50%;
     transform: translateY(-50%);
     z-index: 10050;
+    box-shadow: 0 10px 24px rgba(4, 18, 12, 0.24);
   }
 
   .mobile-nav-toggle .mobile-nav-line {
     height: 2px;
-    width: 100%;
+    width: 20px;
     background: #ffffff;
     border-radius: 999px;
     transition:
       transform 0.3s ease,
       opacity 0.3s ease;
+  }
+
+  .mobile-nav-toggle:hover,
+  .mobile-nav-toggle:focus {
+    background: rgba(240, 182, 38, 0.12);
+    border-color: rgba(240, 182, 38, 0.28);
   }
 
   .mobile-nav-toggle.is-open .mobile-nav-line:first-child {
@@ -457,21 +493,39 @@ h6 {
   .navmenu .mobile-nav-brand {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 12px 6px 16px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
-    margin-bottom: 10px;
+    gap: 12px;
+    padding: 14px;
+    border: 1px solid rgba(240, 182, 38, 0.18);
+    border-radius: 16px;
+    background:
+      linear-gradient(135deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.03));
+    margin-bottom: 14px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
   }
 
   .navmenu .mobile-nav-brand img {
-    height: 36px;
+    height: 44px;
     width: auto;
+    flex-shrink: 0;
   }
 
-  .navmenu .mobile-nav-brand span {
+  .navmenu .mobile-nav-brand-copy {
+    display: grid;
+    gap: 3px;
+  }
+
+  .navmenu .mobile-nav-brand strong {
     font-weight: 800;
     color: #ffffff;
     font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+
+  .navmenu .mobile-nav-brand span {
+    display: block;
+    color: rgba(245, 241, 232, 0.76);
+    font-size: 12px;
+    line-height: 1.45;
     letter-spacing: 0.02em;
   }
 
@@ -479,20 +533,21 @@ h6 {
     display: block;
     list-style: none;
     position: absolute;
-    inset: 0 14px 10px 14px;
-    padding: 16px 12px 12px;
+    inset: 0 12px 10px 12px;
+    padding: 14px 12px 14px;
     margin: 0;
-    border-radius: 18px;
-    background: #08472c;
-    border: 1px solid rgba(240, 182, 38, 0.16);
-    box-shadow: 0 26px 60px rgba(3, 18, 12, 0.65);
-    backdrop-filter: blur(8px);
+    border-radius: 24px 24px 18px 18px;
+    background:
+      linear-gradient(180deg, #0c5536 0%, #08472c 100%);
+    border: 1px solid rgba(240, 182, 38, 0.14);
+    box-shadow: 0 30px 70px rgba(3, 18, 12, 0.62);
+    backdrop-filter: blur(12px);
     overflow-y: auto;
     transition:
-      transform 0.35s ease,
-      opacity 0.35s ease;
+      transform 0.38s ease,
+      opacity 0.32s ease;
     z-index: 10005;
-    transform: translateY(-120%);
+    transform: translateY(-24px) scale(0.98);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -580,9 +635,9 @@ h6 {
   .navmenu > ul > li > a,
   .navmenu > ul > li > a:focus {
     color: #f5f1e8;
-    padding: 12px 14px;
+    padding: 14px 14px;
     font-family: var(--nav-font);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 800;
     display: flex;
     align-items: center;
@@ -596,10 +651,10 @@ h6 {
 
   .navmenu > ul > li > a .nav-icon,
   .navmenu > ul > li > a:focus .nav-icon {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 0;
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -690,23 +745,26 @@ h6 {
   .mobile-nav-active .mobile-nav-toggle {
     position: absolute;
     top: 50%;
-    right: 16px;
+    right: 14px;
     transform: translateY(-50%);
+    background: rgba(240, 182, 38, 0.12);
+    border-color: rgba(240, 182, 38, 0.24);
   }
 
   .mobile-nav-active .navmenu {
     position: fixed;
     overflow: hidden;
-    inset: 70px 0 0 0;
-    height: calc(100% - 70px);
-    background: rgba(4, 18, 12, 0.55);
-    backdrop-filter: blur(6px);
+    inset: 0;
+    padding-top: 84px;
+    height: 100%;
+    background: rgba(4, 18, 12, 0.46);
+    backdrop-filter: blur(10px);
     transition: 0.3s;
     z-index: 10005;
   }
 
   .mobile-nav-active .navmenu > ul {
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
