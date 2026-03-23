@@ -8,6 +8,10 @@
 
   let forms = document.querySelectorAll('.php-email-form');
 
+  forms.forEach(function(e) {
+    initializeFormMeta(e);
+  });
+
   forms.forEach( function(e) {
     e.addEventListener('submit', function(event) {
       event.preventDefault();
@@ -24,6 +28,8 @@
       thisForm.querySelector('.loading').classList.add('d-block');
       thisForm.querySelector('.error-message').classList.remove('d-block');
       thisForm.querySelector('.sent-message').classList.remove('d-block');
+
+      initializeFormMeta(thisForm, true);
 
       let formData = new FormData( thisForm );
 
@@ -91,6 +97,18 @@
     thisForm.querySelector('.loading').classList.remove('d-block');
     thisForm.querySelector('.error-message').innerHTML = error;
     thisForm.querySelector('.error-message').classList.add('d-block');
+  }
+
+  function initializeFormMeta(thisForm, isSubmit) {
+    let submittedAtField = thisForm.querySelector('input[name="submitted_at"]');
+    if (submittedAtField) {
+      submittedAtField.value = submittedAtField.value || new Date().toISOString();
+    }
+
+    let pageUrlField = thisForm.querySelector('input[name="page_url"]');
+    if (pageUrlField && (isSubmit || !pageUrlField.value)) {
+      pageUrlField.value = window.location.href;
+    }
   }
 
 })();

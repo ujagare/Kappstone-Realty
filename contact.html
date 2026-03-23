@@ -203,6 +203,10 @@
                     <input type="tel" name="phone" class="form-control" placeholder="+91 98765 43210" required="">
                   </div>
                   <div class="col-md-6">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" name="email" class="form-control" placeholder="yourname@example.com" required="">
+                  </div>
+                  <div class="col-md-6">
                     <label class="form-label">Budget</label>
                     <select class="form-select" name="budget" required="">
                       <option value="">Select Budget</option>
@@ -224,7 +228,14 @@
                       <option>Rental / Lease</option>
                     </select>
                   </div>
-                  <input type="hidden" name="subject" value="Contact Page Consultation Request">
+                  <input type="hidden" name="subject" value="Free Consultation Request">
+                  <input type="hidden" name="form_source" value="Contact Page">
+                  <input type="hidden" name="submitted_at" value="">
+                  <input type="hidden" name="page_url" value="">
+                  <div class="col-12" style="position:absolute; left:-5000px;" aria-hidden="true">
+                    <label for="contact-company">Company</label>
+                    <input type="text" id="contact-company" name="company" tabindex="-1" autocomplete="off">
+                  </div>
                   <div class="col-md-12">
                     <label class="form-label">Message</label>
                     <textarea class="form-control" name="message" rows="6" placeholder="Tell us your requirement, preferred area, or if you want a site visit." required=""></textarea>

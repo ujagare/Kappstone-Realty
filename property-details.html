@@ -423,9 +423,16 @@
                       <div class="col-12">
                         <input type="email" name="email" class="form-control" placeholder="Email Address" required />
                       </div>
-                      <input type="hidden" name="subject" value="Property Inquiry - Kappstone Realty" />
+                      <input type="hidden" name="subject" value="Property Inquiry" />
+                      <input type="hidden" name="form_source" value="Property Details Page" />
+                      <input type="hidden" name="submitted_at" value="" />
+                      <input type="hidden" name="page_url" value="" />
+                      <div class="col-12" style="position:absolute; left:-5000px;" aria-hidden="true">
+                        <label for="property-company">Company</label>
+                        <input type="text" id="property-company" name="company" tabindex="-1" autocomplete="off" />
+                      </div>
                       <div class="col-12">
-                        <textarea name="message" class="form-control" rows="4" placeholder="I want details for this property"></textarea>
+                        <textarea name="message" class="form-control" rows="4" placeholder="I want details for this property" required></textarea>
                       </div>
                       <div class="col-12">
                         <div class="loading">Loading</div>
