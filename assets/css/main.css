@@ -2798,6 +2798,29 @@ section,
 }
 
 @media (max-width: 991px) {
+  .mobile-sticky-cta {
+    left: auto;
+    right: 12px;
+    bottom: 94px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+  }
+
+  .mobile-sticky-cta a {
+    flex: none;
+    min-width: 128px;
+    min-height: 42px;
+    padding: 0 14px;
+    font-size: 12px;
+    gap: 6px;
+    justify-content: center;
+  }
+
+  .mobile-sticky-cta i {
+    font-size: 12px;
+  }
+
   .index-page {
     padding-bottom: 86px;
   }
@@ -2805,21 +2828,21 @@ section,
 
 @media (max-width: 420px) {
   .mobile-sticky-cta {
-    left: 12px;
     right: 12px;
-    bottom: 12px;
-    gap: 8px;
+    bottom: 88px;
+    gap: 7px;
   }
 
   .mobile-sticky-cta a {
-    min-height: 42px;
-    font-size: 12px;
+    min-width: 118px;
+    min-height: 40px;
+    font-size: 11px;
     gap: 5px;
-    padding: 0 10px;
+    padding: 0 12px;
   }
 
   .mobile-sticky-cta i {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
