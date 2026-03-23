@@ -50,10 +50,21 @@
   });
 
   function php_email_form_submit(thisForm, action, formData) {
+    const isServerlessContactEndpoint =
+      action === '/api/contact' || action === '/.netlify/functions/contact';
+    const requestBody = isServerlessContactEndpoint
+      ? new URLSearchParams(formData).toString()
+      : formData;
+    const requestHeaders = {'X-Requested-With': 'XMLHttpRequest'};
+
+    if (isServerlessContactEndpoint) {
+      requestHeaders['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8';
+    }
+
     fetch(action, {
       method: 'POST',
-      body: formData,
-      headers: {'X-Requested-With': 'XMLHttpRequest'}
+      body: requestBody,
+      headers: requestHeaders
     })
     .then(response => {
       if( response.ok ) {
