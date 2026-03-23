@@ -1265,7 +1265,8 @@ section,
 
 @media (max-width: 575px) {
   .hero .carousel-container {
-    padding: 108px 18px 48px;
+    min-height: 82vh;
+    padding: 96px 18px 28px;
   }
 }
 
@@ -1585,12 +1586,8 @@ section,
 }
 
 @media (max-width: 575px) {
-  .hero .carousel-container {
-    padding: 112px 20px 148px;
-  }
-
   .hero .hero-content {
-    padding: 22px 0 0 16px;
+    padding: 14px 0 0 16px;
   }
 
   .hero .hero-content:before {
@@ -1631,7 +1628,7 @@ section,
   }
 
   .hero .hero-cta-group {
-    margin-bottom: 22px;
+    margin-bottom: 14px;
   }
 }
 
