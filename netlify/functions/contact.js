@@ -1,3 +1,33 @@
+function parseMultipartFormData(bodyText, contentType) {
+  const boundaryMatch = contentType.match(/boundary=(?:"([^"]+)"|([^;]+))/i);
+
+  if (!boundaryMatch) {
+    return {};
+  }
+
+  const boundary = boundaryMatch[1] || boundaryMatch[2];
+  const parts = bodyText.split(`--${boundary}`);
+  const data = {};
+
+  for (const part of parts) {
+    const nameMatch = part.match(/name="([^"]+)"/i);
+
+    if (!nameMatch) {
+      continue;
+    }
+
+    const valueMatch = part.match(/\r?\n\r?\n([\s\S]*?)\r?\n$/);
+
+    if (!valueMatch) {
+      continue;
+    }
+
+    data[nameMatch[1]] = valueMatch[1].trim();
+  }
+
+  return data;
+}
+
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return {
@@ -17,6 +47,8 @@ exports.handler = async (event) => {
   try {
     if (contentType.includes("application/json")) {
       body = JSON.parse(event.body || "{}");
+    } else if (contentType.includes("multipart/form-data")) {
+      body = parseMultipartFormData(event.body || "", contentType);
     } else {
       body = Object.fromEntries(new URLSearchParams(event.body || ""));
     }
