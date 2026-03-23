@@ -1585,6 +1585,10 @@ section,
 }
 
 @media (max-width: 575px) {
+  .hero .carousel-container {
+    padding: 112px 20px 148px;
+  }
+
   .hero .hero-content {
     padding: 22px 0 0 16px;
   }
@@ -1620,6 +1624,14 @@ section,
   .hero .hero-secondary-cta,
   .hero .hero-call-cta {
     width: 100%;
+  }
+
+  .hero .hero-call-cta {
+    display: none;
+  }
+
+  .hero .hero-cta-group {
+    margin-bottom: 22px;
   }
 }
 
