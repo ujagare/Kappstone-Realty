@@ -2779,6 +2779,10 @@ section,
   box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
 }
 
+.mobile-sticky-cta i {
+  font-size: 14px;
+}
+
 .mobile-sticky-cta .mobile-sticky-call {
   background: #08472c;
   color: #ffffff;
@@ -2797,7 +2801,21 @@ section,
 
 @media (max-width: 420px) {
   .mobile-sticky-cta {
-    grid-template-columns: 1fr;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    gap: 8px;
+  }
+
+  .mobile-sticky-cta a {
+    min-height: 46px;
+    font-size: 13px;
+    gap: 6px;
+    padding: 0 12px;
+  }
+
+  .mobile-sticky-cta i {
+    font-size: 13px;
   }
 }
 
