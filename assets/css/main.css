@@ -2761,7 +2761,7 @@ section,
   right: 12px;
   bottom: 94px;
   z-index: 998;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   align-items: flex-end;
   gap: 8px;
@@ -2770,15 +2770,21 @@ section,
 .mobile-sticky-cta a {
   width: 48px;
   height: 48px;
-  display: inline-flex;
+  display: inline-flex !important;
   align-items: center;
   justify-content: center;
   border-radius: 12px;
   box-shadow: 0 16px 30px rgba(0, 0, 0, 0.22);
+  padding: 0 !important;
+  min-width: 48px !important;
+  min-height: 48px !important;
+  font-size: 0 !important;
+  line-height: 1 !important;
+  overflow: hidden;
 }
 
 .mobile-sticky-cta i {
-  font-size: 24px;
+  font-size: 24px !important;
 }
 
 .mobile-sticky-cta .mobile-sticky-call {
@@ -2792,6 +2798,11 @@ section,
 }
 
 @media (max-width: 991px) {
+  .scroll-top {
+    right: 12px;
+    bottom: 198px;
+  }
+
   .index-page {
     padding-bottom: 86px;
   }
