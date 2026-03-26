@@ -227,7 +227,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 72px;
+  max-height: 88px;
   width: auto;
   margin-right: 0;
 }
@@ -261,7 +261,7 @@ h6 {
 /* Desktop Navigation */
 @media (min-width: 1200px) {
   .header .logo img {
-    max-height: 90px;
+    max-height: 108px;
   }
 
   .navmenu {
@@ -421,7 +421,7 @@ h6 {
   }
 
   .header .logo img {
-    max-height: 54px;
+    max-height: 76px;
   }
 
   .mobile-header-whatsapp {
