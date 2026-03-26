@@ -185,6 +185,139 @@
                                         ]
                        },
                        {
+                           "id":  "solitaire-kothrud",
+                           "name":  "Solitaire Kothrud",
+                           "tagline":  "Premium 3 \u0026 4 BHK Residences",
+                           "location":  "Kothrud, Pune",
+                           "type":  "Residential",
+                           "price_display":  "Price On Request",
+                           "area_display":  "1175-1860 sqft (Carpet)",
+                           "status":  "Inventory Available",
+                           "possession":  "On Request",
+                           "map":  "https://www.google.com/maps?q=Kothrud%20Pune",
+                           "images":  [
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-01.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-02.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-03.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-04.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-05.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-06.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-07.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-08.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-09.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-10.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-11.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-12.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-page-13.png",
+                                          "assets/img/solitaire-kothrud/solitaire-kothrud-inventory.jpeg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Premium residential project in Kothrud, Pune",
+                                                              "Available inventory in Tower A and Tower B",
+                                                              "3 BHK and 4 BHK residences",
+                                                              "Detailed pricing and availability shared on request"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Configurations",
+                                                "items":  [
+                                                              "3 BHK: 1175 sqft carpet (Tower B)",
+                                                              "3 BHK: 1282 sqft carpet (Tower B)",
+                                                              "3 BHK: 1307 sqft carpet (Tower A)",
+                                                              "4 BHK: 1829 sqft carpet (Tower A)",
+                                                              "4 BHK: 1860 sqft carpet (Tower A)"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Inventory Snapshot",
+                                                "items":  [
+                                                              "Tower B: 3 BHK options available",
+                                                              "Tower A: 3 BHK and 4 BHK options available",
+                                                              "Carpet area range: 1175 sqft to 1860 sqft",
+                                                              "Quote price: Price On Request"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Buyer Support",
+                                                "items":  [
+                                                              "Site visit coordination available",
+                                                              "Inventory shortlist support available",
+                                                              "Configuration and quote sharing on request",
+                                                              "Documentation guidance available"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "elements",
+                           "name":  "Elements by Majestique Landmarks",
+                           "tagline":  "The Epitome of Low-Density, High-Luxury Living",
+                           "location":  "Pan Card Club Road, Baner, Pune",
+                           "type":  "Residential",
+                           "price_display":  "Rs. 3.75 Cr onwards",
+                           "area_display":  "2028-2209 sqft",
+                           "status":  "Under Construction",
+                           "possession":  "Dec 2028",
+                           "map":  "https://www.google.com/maps?q=Pan%20Card%20Club%20Road%20Baner%20Pune",
+                           "images":  [
+                                          "assets/img/elements/Screenshot 2026-03-26 231200.png"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Pan Card Club Road, Baner - upscale hill-side enclave",
+                                                              "Land parcel: 1 Acre+",
+                                                              "32-storey iconic architectural masterpiece",
+                                                              "Limited edition development with just 98 privileged residences",
+                                                              "Approx. 3000 sqft grand entrance lobby",
+                                                              "30 ft triple-height arrival lounge",
+                                                              "5 tier security",
+                                                              "3 levels of curated lifestyle amenities",
+                                                              "Infinity-edge sky pool at approx. 350 ft height",
+                                                              "4 high-speed elevators",
+                                                              "Dedicated servant quarters with discreet entry",
+                                                              "Three-side-open residences for maximum light and ventilation",
+                                                              "10 ft clear ceiling height",
+                                                              "Possession: Dec 2028"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Configurations",
+                                                "items":  [
+                                                              "4 BHK: 2028 sqft | Starting Rs. 3.75 Cr (all inclusive package + floor rise extra)",
+                                                              "4.5 BHK: 2209 sqft | Starting Rs. 4.10 Cr (all inclusive + floor rise extra)",
+                                                              "Configuration: 4 and 4.5 BHK residences",
+                                                              "Low-density high-luxury living in a premium Baner address"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Amenities \u0026 Lifestyle",
+                                                "items":  [
+                                                              "Wellness zone with steam, sauna and jacuzzi",
+                                                              "Exclusive rooftop cafe overlooking the skyline",
+                                                              "Pickleball court",
+                                                              "Indoor games and recreation lounge",
+                                                              "Oxygen park",
+                                                              "Curated lifestyle amenities across 3 levels"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Buyer Support",
+                                                "items":  [
+                                                              "Iconic address at Pan Card Club Road, Baner",
+                                                              "Brochure walkthrough available",
+                                                              "Site visit coordination available",
+                                                              "Configuration shortlist support available",
+                                                              "Inventory and costing support available"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
                            "id":  "rohan-saroha",
                            "name":  "Rohan Saroha",
                            "tagline":  "Views You\u0027ll Love - Premium Hillside Living",
@@ -338,6 +471,81 @@
                                         ]
                        },
                        {
+                           "id":  "livience-aleenta",
+                           "name":  "Livience Aleenta",
+                           "tagline":  "3 to 6 BHK Luxury Homes",
+                           "location":  "Baner-Pashan Link Road, Pashan, Pune 411021",
+                           "type":  "Residential",
+                           "price_display":  "On Request",
+                           "area_display":  "1317-4047 sqft",
+                           "status":  "Under Construction",
+                           "possession":  "On Request",
+                           "map":  "https://www.google.com/maps?q=Baner%20Pashan%20Link%20Road%20Pune&output=embed",
+                           "images":  [
+                                          "assets/img/livience-aleenta/livience_aleenta_page03_img01.jpg",
+                                          "assets/img/livience-aleenta/livience_aleenta_page09_img01.jpg",
+                                          "assets/img/livience-aleenta/livience_aleenta_page05_img01.jpg",
+                                          "assets/img/livience-aleenta/livience_aleenta_page17_img01.jpg",
+                                          "assets/img/livience-aleenta/livience_aleenta_page52_img01.jpg",
+                                          "assets/img/livience-aleenta/livience_aleenta_page01_img01.jpg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "5 towers of over 30 storeys",
+                                                              "Offering 3, 4, 4.5, 5 and 6 BHK homes",
+                                                              "Over 1 lakh sq. ft. of recreational lifestyle podium",
+                                                              "Multi-level club around 25,000 sq. ft.",
+                                                              "Vaastu compliant homes with sweeping decks",
+                                                              "MahaRERA: P52100049795, P52100053904"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Configurations",
+                                                "items":  [
+                                                              "3 BHK: 1317 sqft carpet / 1438 sqft total carpet",
+                                                              "4 BHK: 1744 sqft total carpet",
+                                                              "4.5 BHK: 1991 sqft carpet / 2200 sqft total carpet",
+                                                              "5 BHK couplet: 2646 sqft carpet / 4047 sqft saleable"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Amenities & Features",
+                                                "items":  [
+                                                              "Swimming pool, kid's pool and aroma pool",
+                                                              "Spa, gym, yoga and squash court",
+                                                              "Mini theatre, multipurpose hall and co-working space",
+                                                              "Guest suites, library and senior citizen area",
+                                                              "Kid's play area, games room and toddler's area",
+                                                              "Pet zone, gazebo, reflexology pathway and amphitheatre"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Specifications",
+                                                "items":  [
+                                                              "Home automation in living, dining and one master bedroom",
+                                                              "Imported marble in living, dining and common passages",
+                                                              "Modular kitchen with chimney, hob and SS sink",
+                                                              "Premium Kohler or equivalent sanitary fittings",
+                                                              "System windows with mosquito nets",
+                                                              "Earthquake resistant MIVAN RCC structure"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Location Advantage",
+                                                "items":  [
+                                                              "Baner-Pashan Link Road address with hill and river views",
+                                                              "Star Bazaar: 600 m",
+                                                              "The Orchid School: 4.3 km",
+                                                              "Balewadi High Street: 5.3 km",
+                                                              "Hinjewadi IT Hub: 15 km",
+                                                              "Pune Airport: 17.2 km"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
                            "id":  "teerth-technospace",
                            "name":  "Teerth Technospace",
                            "tagline":  "Premium Office Space for Sale",
@@ -379,42 +587,219 @@
                                         ]
                        },
                        {
-                           "id":  "skf-channel-partner",
-                           "name":  "SKF Channel Partner",
-                           "tagline":  "Multiple premium listings",
-                           "location":  "Prabhat Road, Model Colony, Shivaji Nagar, Kothrud",
-                           "type":  "Portfolio",
-                           "price_display":  "Rs. 1.33 Cr - Rs. 8.20 Cr",
-                           "area_display":  "221-2547 sqft",
-                           "status":  "Multiple",
-                           "possession":  "June 2025 - Dec 2027",
-                           "map":  "https://www.google.com/maps-q=Prabhat%20Road%20Pune",
+                           "id":  "tower-108",
+                           "name":  "TOWER 108 by CERATEC GROUP",
+                           "tagline":  "Where Business Stories Become Timeless Glories",
+                           "location":  "Balewadi, Pune (Sanctioned DP Road, Near Metro Stations)",
+                           "type":  "Commercial Office",
+                           "price_display":  "Rs. 1.55 Cr onwards",
+                           "area_display":  "516-17000 sqft",
+                           "status":  "Inventory Available",
+                           "possession":  "On Request",
+                           "map":  "https://www.google.com/maps?q=Balewadi%20Pune",
                            "images":  [
-                                          "assets/img/skf/skf_page01_img01.jpeg",
-                                          "assets/img/skf/skf_page02_img01.jpeg",
-                                          "assets/img/skf/skf_page03_img01.jpeg",
-                                          "assets/img/skf/skf_page04_img01.jpeg",
-                                          "assets/img/skf/skf_page05_img01.jpeg",
-                                          "assets/img/skf/skf_page06_img01.jpeg",
-                                          "assets/img/skf/skf_page07_img01.jpeg",
-                                          "assets/img/skf/skf_page08_img01.jpeg",
-                                          "assets/img/skf/skf_page10_img01.jpeg",
-                                          "assets/img/skf/skf_page12_img01.jpeg"
+                                          "assets/img/TOWER 108/093ac4a4-32dd-4262-b850-7fafaf96238c.jpg",
+                                          "assets/img/TOWER 108/23e7ca3c-fdf6-4186-989b-c087f43c7ecb.jpg",
+                                          "assets/img/TOWER 108/49209ca0-963a-4728-b0f6-15994a8d3843.jpg",
+                                          "assets/img/TOWER 108/52b97bc7-f950-47ee-86c7-6f2c5927887e.jpg",
+                                          "assets/img/TOWER 108/60461b7a-4577-447b-af17-c204dcaf94c9.jpg",
+                                          "assets/img/TOWER 108/630ede0a-338d-42fe-a781-096c9421f354.jpg",
+                                          "assets/img/TOWER 108/7e557295-3dfa-4f0e-b5ea-48ee0282aaf6.jpg",
+                                          "assets/img/TOWER 108/a822692e-4eef-416e-974c-34220bc8f9ac.jpg",
+                                          "assets/img/TOWER 108/e8217dde-9dcb-45d9-af80-dac56acea61e.jpg"
                                       ],
                            "sections":  [
                                             {
-                                                "title":  "Highlights",
+                                                "title":  "Project Highlights",
                                                 "items":  [
-                                                              "10 premium projects",
-                                                              "2 BHK to 6 BHK and offices",
-                                                              "Prime locations around Prabhat Road"
+                                                              "One of the tallest commercial towers in the heart of Balewadi",
+                                                              "Strategically located on sanctioned DP road and near metro stations",
+                                                              "7 levels of parking with guest waiting lounges",
+                                                              "Common washrooms on every floor",
+                                                              "Dedicated floor for two-wheeler parking",
+                                                              "55,000 sqft of first-class commercial spaces",
+                                                              "360 degree panoramic view of Balewadi",
+                                                              "24-hour security with CCTV surveillance",
+                                                              "100 percent DG backup for the entire building",
+                                                              "Every office comes with a dedicated bathroom"
                                                           ]
                                             },
                                             {
-                                                "title":  "Price Range",
+                                                "title":  "Office Options",
                                                 "items":  [
-                                                              "From Rs. 1.33 Cr to Rs. 8.20 Cr",
-                                                              "Society corpus fund and legal fees extra where mentioned"
+                                                              "450+ office spaces available",
+                                                              "Office sizes range from 516 sqft to 1470 sqft",
+                                                              "20 offices on each floor",
+                                                              "17,000 sqft office option available for larger requirements",
+                                                              "Prices start from Rs. 1.55 Cr onwards for office spaces"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Showroom Spaces",
+                                                "items":  [
+                                                              "4 spacious showroom units",
+                                                              "Carpet areas range from 2300 sqft to 2500 sqft",
+                                                              "Mezzanine level included",
+                                                              "Impressive 28 ft height for premium visibility"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Amenities \u0026 Convenience",
+                                                "items":  [
+                                                              "Pool table",
+                                                              "Cafeteria",
+                                                              "Smoking zone",
+                                                              "Indoor games",
+                                                              "Guest waiting lounges",
+                                                              "Modern work environment designed for productivity"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Connectivity",
+                                                "items":  [
+                                                              "Mumbai-Bangalore Expressway just 500 meters away",
+                                                              "Excellent Balewadi business connectivity",
+                                                              "Near metro stations for easy daily commute"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "venkatesh-laurel",
+                           "name":  "Venkatesh Laurel",
+                           "tagline":  "Witness Unparalleled Luxury Like Never Before Never Again",
+                           "location":  "Shivaji Nagar, Pune (Behind LIC Divisional Office, Pride Hotel Lane)",
+                           "type":  "Residential",
+                           "price_display":  "On Request",
+                           "area_display":  "1277-1778 sqft (Carpet)",
+                           "status":  "Luxury Residences",
+                           "possession":  "On Request",
+                           "map":  "https://www.google.com/maps?q=Shivaji%20Nagar%20Behind%20LIC%20Divisional%20Office%20Pride%20Hotel%20Lane%20Pune",
+                           "images":  [
+                                          "assets/img/VENKATESH/Screenshot 2026-03-26 232433.png",
+                                          "assets/img/VENKATESH/Screenshot 2026-03-26 232512.png",
+                                          "assets/img/VENKATESH/Screenshot 2026-03-26 232533.png",
+                                          "assets/img/VENKATESH/Screenshot 2026-03-26 232559.png",
+                                          "assets/img/VENKATESH/Screenshot 2026-03-26 232615.png",
+                                          "assets/img/VENKATESH/Screenshot 2026-03-26 232651.png",
+                                          "assets/img/VENKATESH/Screenshot 2026-03-26 232736.png",
+                                          "assets/img/VENKATESH/Screenshot 2026-03-26 232755.png",
+                                          "assets/img/VENKATESH/Screenshot 2026-03-26 232818.png"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Approx. 1.5 acres of land parcel",
+                                                              "2 magnificent towers of 30 storeys plus 6 levels of parking",
+                                                              "20+ outstanding amenities on the podium and rooftop",
+                                                              "Opulent lounge at rooftop",
+                                                              "Semi furnished homes",
+                                                              "Located in the heart of Pune",
+                                                              "Seamless connectivity and hassle-free urban lifestyle"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Location Advantage",
+                                                "items":  [
+                                                              "Shivaji Nagar address behind LIC Divisional Office, Pride Hotel Lane",
+                                                              "2 minutes from Shivajinagar Metro Station",
+                                                              "2 minutes from Shivajinagar Bus Station",
+                                                              "Easy access to Pune Airport",
+                                                              "Prime central Pune connectivity"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Configurations",
+                                                "items":  [
+                                                              "Spacious 3 BHK: 1277-1305 sqft carpet",
+                                                              "Luxurious 4 BHK: 1778 sqft carpet",
+                                                              "Premium 3 and 4 BHK luxements",
+                                                              "Designed for royal living in central Pune"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Amenities \u0026 Lifestyle",
+                                                "items":  [
+                                                              "20+ podium and rooftop amenities",
+                                                              "Rooftop lounge",
+                                                              "Large-scale tower lifestyle planning",
+                                                              "Premium urban living experience"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Contact Support",
+                                                "items":  [
+                                                              "Site visit invitation available",
+                                                              "For more details: Ashwini Chandsarkar",
+                                                              "Contact: 9156657118",
+                                                              "Detailed assistance available on request"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "the-lords",
+                           "name":  "The Lords Project by Pristine Developers",
+                           "tagline":  "An Opulent Residential Development on Baner Pashan Link Road",
+                           "location":  "Baner Pashan Link Road, Pune",
+                           "type":  "Residential",
+                           "price_display":  "Rs. 2.63 Cr onwards",
+                           "area_display":  "1554-2005 sqft (Carpet)",
+                           "status":  "Under Construction",
+                           "possession":  "Tower A: Dec 2028 | Tower B: Dec 2029",
+                           "map":  "https://maps.app.goo.gl/3qmwfdZsRF4aVcN97",
+                           "images":  [
+                                          "assets/img/lords/download.jpg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Land parcel: 3.5 acres",
+                                                              "4 towers planned: A, B, C and D",
+                                                              "Currently launched: Tower A and Tower B",
+                                                              "Prestigious Baner Pashan Link Road address",
+                                                              "30 percent built area and 70 percent open space",
+                                                              "Prime location with premium residential positioning"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Possession \u0026 Launch Status",
+                                                "items":  [
+                                                              "Tower A possession: Dec 2028 (RERA)",
+                                                              "Tower B possession: Dec 2029 (RERA)",
+                                                              "Launched towers: A and B"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Configurations \u0026 Pricing",
+                                                "items":  [
+                                                              "3 BHK: 1554 sqft - Rs. 2.63 Cr onwards",
+                                                              "3 BHK: 1600 sqft - Rs. 2.71 Cr onwards",
+                                                              "4.5 BHK: 1963 sqft - Rs. 3.34 Cr",
+                                                              "4.5 BHK: 2005 sqft - Rs. 3.41 Cr onwards"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "USPs",
+                                                "items":  [
+                                                              "World-class 40+ amenities",
+                                                              "Enhanced security",
+                                                              "No MHADA",
+                                                              "Palatial arrival lobby",
+                                                              "Floor to ceiling height of 3.2 mtr (10 ft)",
+                                                              "Elegant fantasy marble in entire flat",
+                                                              "100 percent DG backup for flat"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Lifestyle \u0026 Living",
+                                                "items":  [
+                                                              "Opulent residential development by Pristine Developers",
+                                                              "Spacious 3 BHK and 4.5 BHK homes",
+                                                              "Designed for a premium Baner lifestyle",
+                                                              "Site visit and inventory assistance available"
                                                           ]
                                             }
                                         ]

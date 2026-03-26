@@ -79,7 +79,7 @@
         (img, index) => `
           <div class="swiper-slide">
             <button class="property-slide-trigger" type="button" data-image="${img}" aria-label="Open property image ${index + 1}">
-              <img loading="lazy" src="${img}" alt="${item.name} image ${index + 1}">
+              <img loading="lazy" decoding="async" fetchpriority="low" src="${img}" alt="${item.name} image ${index + 1}">
             </button>
           </div>`,
       )
@@ -273,7 +273,7 @@
             (property) => `
               <div class="col-md-6 col-xl-4">
                 <article class="related-property-card">
-                  <img loading="lazy" src="${(property.images && property.images[0]) || "assets/img/properties/featured-1.jpg"}" alt="${property.name}" />
+                  <img loading="lazy" decoding="async" fetchpriority="low" src="${(property.images && property.images[0]) || "assets/img/properties/featured-1.jpg"}" alt="${property.name}" />
                   <div class="related-property-copy">
                     <h3><a href="property-details.html?id=${property.id}">${property.name}</a></h3>
                     <p><i class="bi bi-geo-alt"></i> ${property.location || "Pune"}</p>

@@ -18,7 +18,7 @@
       <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="${delay}">
         <article class="featured-card">
           <div class="featured-media">
-            <img loading="lazy" src="${image}" alt="${item.name}" class="img-fluid">
+            <img loading="lazy" decoding="async" fetchpriority="low" src="${image}" alt="${item.name}" class="img-fluid">
             <div class="featured-overlay">
               <div class="featured-brand">
                 <div class="featured-logo">${badge}</div>
