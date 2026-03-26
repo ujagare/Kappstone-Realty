@@ -18,7 +18,6 @@ Get-Content $envPath | ForEach-Object {
   $envValues[$parts[0].Trim()] = $parts[1].Trim()
 }
 
-$gaId = $envValues["GOOGLE_ANALYTICS_ID"]
 $gtmId = $envValues["GOOGLE_TAG_MANAGER_ID"]
 $searchConsole = $envValues["GOOGLE_SEARCH_CONSOLE_VERIFICATION"]
 
@@ -44,22 +43,6 @@ if ($gtmId) {
     })(window,document,'script','dataLayer','$gtmId');
   </script>
   <!-- /Google Tag Manager -->
-
-"@
-}
-
-$gaBlock = ""
-if ($gaId) {
-  $gaBlock = @"
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=$gaId"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', '$gaId');
-  </script>
-  <!-- /Google Analytics -->
 
 "@
 }
@@ -100,16 +83,23 @@ foreach ($file in $htmlFiles) {
     "`r`n"
   )
 
-  $headInjection = ($searchConsoleBlock + $gtmHeadBlock + $gaBlock)
+  $headInjection = $searchConsoleBlock
+  $bodyInjection = ""
+
+  if ($file.Name -ne "404.html") {
+    $headInjection += $gtmHeadBlock
+    $bodyInjection = $gtmBodyBlock
+  }
+
   if ($headInjection) {
     $content = $content -replace '</head>', ($headInjection + '</head>')
   }
 
-  if ($gtmBodyBlock) {
+  if ($bodyInjection) {
     $content = [regex]::Replace(
       $content,
       '(<body\b[^>]*>)',
-      "`$1`r`n`r`n$gtmBodyBlock",
+      "`$1`r`n`r`n$bodyInjection",
       1
     )
   }
@@ -118,6 +108,5 @@ foreach ($file in $htmlFiles) {
 }
 
 Write-Host "Google integrations processed for $($htmlFiles.Count) HTML files."
-if (-not $gaId) { Write-Host "GOOGLE_ANALYTICS_ID is empty, so GA was not injected." }
 if (-not $gtmId) { Write-Host "GOOGLE_TAG_MANAGER_ID is empty, so GTM was not injected." }
 if (-not $searchConsole) { Write-Host "GOOGLE_SEARCH_CONSOLE_VERIFICATION is empty, so verification meta tag was not injected." }

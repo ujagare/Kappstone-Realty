@@ -10,6 +10,27 @@
   "use strict";
 
   /**
+   * Email protection
+   */
+  document.querySelectorAll('[data-email-user][data-email-domain]').forEach((element) => {
+    const user = element.getAttribute('data-email-user');
+    const domain = element.getAttribute('data-email-domain');
+    if (!user || !domain) return;
+
+    const email = `${user}@${domain}`;
+    const text = element.getAttribute('data-email-text') || email;
+
+    if (element.tagName === 'A') {
+      element.href = `mailto:${email}`;
+      element.textContent = text;
+    } else {
+      element.textContent = text;
+    }
+
+    element.setAttribute('aria-label', email);
+  });
+
+  /**
    * Lenis smooth scroll
    */
   if (window.Lenis) {
