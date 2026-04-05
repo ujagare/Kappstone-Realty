@@ -1,6 +1,9 @@
 (function () {
   const listEl = document.getElementById("properties-list");
   if (!listEl) return;
+  const locationSelect = document.getElementById("propertyLocation");
+  const typeSelect = document.getElementById("propertyType");
+  const budgetSelect = document.getElementById("propertyBudget");
 
   let allProperties = [];
 
@@ -75,39 +78,80 @@
   };
 
   const matchesPriceRange = (price, range) => {
-    if (range === "Price Range") return true;
+    if (range === "all") return true;
     const priceValue = getPriceValue(price);
-    if (range === "?10L - ?50L")
+    if (range === "10l-50l")
       return priceValue >= 1000000 && priceValue <= 5000000;
-    if (range === "?50L - ?1Cr")
+    if (range === "50l-1cr")
       return priceValue >= 5000000 && priceValue <= 10000000;
-    if (range === "?1Cr - ?3Cr")
+    if (range === "1cr-3cr")
       return priceValue >= 10000000 && priceValue <= 30000000;
-    if (range === "?3Cr+") return priceValue >= 30000000;
+    if (range === "3cr-plus") return priceValue >= 30000000;
     return true;
   };
 
+  const normalizeSelects = () => {
+    if (locationSelect) {
+      [...locationSelect.options].forEach((option, index) => {
+        if (!option.value) {
+          option.value = index === 0 ? "all" : option.textContent.trim();
+        }
+      });
+    }
+
+    if (typeSelect) {
+      [...typeSelect.options].forEach((option, index) => {
+        if (!option.value) {
+          option.value = index === 0 ? "all" : option.textContent.trim();
+        }
+      });
+    }
+
+    if (budgetSelect) {
+      const budgetOptions = [
+        ["all", "Price Range"],
+        ["10l-50l", "Rs.10L - Rs.50L"],
+        ["50l-1cr", "Rs.50L - Rs.1Cr"],
+        ["1cr-3cr", "Rs.1Cr - Rs.3Cr"],
+        ["3cr-plus", "Rs.3Cr+"],
+      ];
+
+      [...budgetSelect.options].forEach((option, index) => {
+        const config = budgetOptions[index];
+        if (!config) return;
+        option.value = config[0];
+        option.textContent = config[1];
+      });
+    }
+  };
+
+  const syncSelectState = (selectEl) => {
+    if (!selectEl) return;
+    const isActive = selectEl.value && selectEl.value !== "all";
+    selectEl.classList.toggle("has-selection", isActive);
+    selectEl.title = selectEl.options[selectEl.selectedIndex]?.textContent || "";
+  };
+
+  const syncAllSelectStates = () => {
+    syncSelectState(locationSelect);
+    syncSelectState(typeSelect);
+    syncSelectState(budgetSelect);
+  };
+
   const filterProperties = () => {
-    const searchTerm =
-      document.getElementById("propertySearch")?.value.toLowerCase() || "";
-    const location =
-      document.getElementById("propertyLocation")?.value || "All Locations";
-    const type =
-      document.getElementById("propertyType")?.value || "Property Type";
-    const priceRange =
-      document.getElementById("propertyBudget")?.value || "Price Range";
+    syncAllSelectStates();
+
+    const location = locationSelect?.value || "all";
+    const type = typeSelect?.value || "all";
+    const priceRange = budgetSelect?.value || "all";
 
     const filtered = allProperties.filter((item) => {
-      const matchesSearch =
-        !searchTerm ||
-        item.name.toLowerCase().includes(searchTerm) ||
-        item.location.toLowerCase().includes(searchTerm);
       const matchesLocation =
-        location === "All Locations" ||
+        location === "all" ||
         item.location.toLowerCase().includes(location.toLowerCase());
-      const matchesType = type === "Property Type" || item.type === type;
+      const matchesType = type === "all" || item.type === type;
       const matchesPrice = matchesPriceRange(item.price_display, priceRange);
-      return matchesSearch && matchesLocation && matchesType && matchesPrice;
+      return matchesLocation && matchesType && matchesPrice;
     });
 
     listEl.innerHTML = filtered.length
@@ -122,20 +166,12 @@
     .then((data) => {
       if (!data || !Array.isArray(data.properties)) return;
       allProperties = data.properties;
+      normalizeSelects();
       filterProperties();
 
-      document
-        .getElementById("propertySearch")
-        ?.addEventListener("input", filterProperties);
-      document
-        .getElementById("propertyLocation")
-        ?.addEventListener("change", filterProperties);
-      document
-        .getElementById("propertyType")
-        ?.addEventListener("change", filterProperties);
-      document
-        .getElementById("propertyBudget")
-        ?.addEventListener("change", filterProperties);
+      locationSelect?.addEventListener("change", filterProperties);
+      typeSelect?.addEventListener("change", filterProperties);
+      budgetSelect?.addEventListener("change", filterProperties);
     })
     .catch(() => {
       listEl.innerHTML = "";

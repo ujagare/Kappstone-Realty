@@ -169,22 +169,6 @@
             data-aos-delay="150"
           >
             <div class="row g-2 align-items-center">
-              <div class="col-12 col-md-4">
-                <label class="visually-hidden" for="propertySearch"
-                  >Search</label
-                >
-                <div class="input-group">
-                  <span class="input-group-text"
-                    ><i class="bi bi-search"></i
-                  ></span>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="propertySearch"
-                    placeholder="Search project or locality"
-                  />
-                </div>
-              </div>
               <div class="col-12 col-md-2">
                 <label class="visually-hidden" for="propertyLocation"
                   >Location</label
@@ -194,11 +178,11 @@
                     ><i class="bi bi-geo-alt"></i
                   ></span>
                   <select class="form-select" id="propertyLocation">
-                    <option selected>All Locations</option>
-                    <option>Pune</option>
-                    <option>Mumbai</option>
-                    <option>Dubai</option>
-                    <option>Konkan</option>
+                    <option value="all" selected>All Locations</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Dubai">Dubai</option>
+                    <option value="Konkan">Konkan</option>
                   </select>
                 </div>
               </div>
@@ -211,10 +195,10 @@
                     ><i class="bi bi-house-door"></i
                   ></span>
                   <select class="form-select" id="propertyType">
-                    <option selected>Property Type</option>
-                    <option>Residential</option>
-                    <option>Plotting</option>
-                    <option>Commercial</option>
+                    <option value="all" selected>Property Type</option>
+                    <option value="Residential">Residential</option>
+                    <option value="Plotting">Plotting</option>
+                    <option value="Commercial">Commercial</option>
                   </select>
                 </div>
               </div>

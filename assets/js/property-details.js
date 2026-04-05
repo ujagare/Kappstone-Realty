@@ -5,9 +5,9 @@
   const priceBigEl = document.getElementById("property-price-big");
   const keyGridEl = document.getElementById("property-key-grid");
   const detailGridEl = document.getElementById("property-detail-grid");
+  const keyHighlightsEl = document.getElementById("property-key-highlights");
   const trustListEl = document.getElementById("property-trust-list");
   const reraBadgeEl = document.getElementById("property-rera-badge");
-  const similarPropertiesEl = document.getElementById("similar-properties");
   const sectionsEl = document.getElementById("property-sections");
   const summaryEl = document.getElementById("property-summary");
   const slidesEl = document.getElementById("property-slides");
@@ -68,13 +68,65 @@
     </div>
   `;
 
+  const makeDetailCard = (label, value, icon, accentClass = "") => `
+    <article class="property-info-card property-detail-card ${accentClass}">
+      <div class="property-detail-card-head">
+        <span class="property-info-icon"><i class="bi ${icon}"></i></span>
+        <small>${label}</small>
+      </div>
+      <strong>${value || "On Request"}</strong>
+    </article>
+  `;
+
+  const makeKeyInfoCard = (label, value, icon, toneClass = "", layoutClass = "") => `
+    <article class="property-info-card property-key-card ${toneClass} ${layoutClass}">
+      <div class="property-key-card-top">
+        <span class="property-info-icon"><i class="bi ${icon}"></i></span>
+        <span class="property-key-card-label">${label}</span>
+      </div>
+      <strong>${value || "On Request"}</strong>
+    </article>
+  `;
+
+  const makeHighlightPill = (label, value, icon) => `
+    <div class="property-key-highlight-pill">
+      <span class="property-key-highlight-icon"><i class="bi ${icon}"></i></span>
+      <div>
+        <small>${label}</small>
+        <strong>${value || "Available"}</strong>
+      </div>
+    </div>
+  `;
+
   const renderSlides = (item) => {
     if (!slidesEl) return;
+    if (item.video && item.id === "kingsbay-farmhouse-plotting") {
+      slidesEl.innerHTML = `
+        <div class="swiper-slide">
+          <div class="property-slide-video">
+            <video autoplay muted loop playsinline controls preload="metadata" aria-label="${item.name} video">
+              <source src="${item.video}" type="video/mp4">
+            </video>
+          </div>
+        </div>`;
+      return;
+    }
+
     const imgs =
       item.images && item.images.length
         ? item.images
         : ["assets/img/properties/featured-1.jpg"];
-    slidesEl.innerHTML = imgs
+    const videoSlide = item.video
+      ? `
+          <div class="swiper-slide">
+            <div class="property-slide-video">
+              <video autoplay muted loop playsinline controls preload="metadata" aria-label="${item.name} video">
+                <source src="${item.video}" type="video/mp4">
+              </video>
+            </div>
+          </div>`
+      : "";
+    const imageSlides = imgs
       .map(
         (img, index) => `
           <div class="swiper-slide">
@@ -84,6 +136,7 @@
           </div>`,
       )
       .join("");
+    slidesEl.innerHTML = `${videoSlide}${imageSlides}`;
   };
 
   const mapEmbedUrl = (item) => {
@@ -111,6 +164,11 @@
         return;
       }
 
+      document.body.classList.toggle(
+        "kingsbay-video-only",
+        item.id === "kingsbay-farmhouse-plotting" && Boolean(item.video),
+      );
+
       document.title = `${item.name} - Kappstone Realty`;
 
       if (titleEl) titleEl.textContent = item.name;
@@ -128,21 +186,30 @@
       const reraValue = extractRera(item);
       const amenityCount = getAmenityItems(item).length;
 
+      if (keyHighlightsEl) {
+        keyHighlightsEl.innerHTML = [
+          makeHighlightPill("Status", item.status, "bi-patch-check-fill"),
+          makeHighlightPill("Possession", item.possession, "bi-calendar-event"),
+          makeHighlightPill("Type", item.type, "bi-buildings-fill"),
+          makeHighlightPill("RERA", reraValue || "Verified Details", "bi-shield-check"),
+        ].join("");
+      }
+
       if (keyGridEl) {
         keyGridEl.innerHTML = [
-          makeInfoCard("Price", item.price_display, "bi-currency-rupee"),
-          makeInfoCard("Location", item.location, "bi-geo-alt-fill"),
-          makeInfoCard("BHK", bhkValue, "bi-buildings"),
-          makeInfoCard("Area", item.area_display, "bi-aspect-ratio-fill"),
+          makeKeyInfoCard("Starting Price", item.price_display, "bi-currency-rupee", "property-key-card-gold"),
+          makeKeyInfoCard("Prime Location", item.location, "bi-geo-alt-fill", "property-key-card-green", "property-key-card-wide"),
+          makeKeyInfoCard("Configuration", bhkValue, "bi-house-door-fill", "property-key-card-navy"),
+          makeKeyInfoCard("Carpet Area", item.area_display, "bi-aspect-ratio-fill", "property-key-card-amber", "property-key-card-wide"),
         ].join("");
       }
 
       if (detailGridEl) {
         detailGridEl.innerHTML = [
-          makeInfoCard("Property Type", item.type, "bi-building"),
-          makeInfoCard("Status", item.status, "bi-patch-check"),
-          makeInfoCard("Floor / Project", deriveFloor(item), "bi-layers"),
-          makeInfoCard("Amenities", amenityCount ? `${amenityCount}+ Features` : "Available", "bi-stars"),
+          makeDetailCard("Property Type", item.type, "bi-building", "property-detail-card-sage"),
+          makeDetailCard("Status", item.status, "bi-patch-check", "property-detail-card-gold"),
+          makeDetailCard("Floor / Project", deriveFloor(item), "bi-layers", "property-detail-card-ink"),
+          makeDetailCard("Amenities", amenityCount ? `${amenityCount}+ Features` : "Available", "bi-stars", "property-detail-card-blush"),
         ].join("");
       }
 
@@ -258,37 +325,6 @@
         mapEl.src = mapEmbedUrl(item);
       }
 
-      if (similarPropertiesEl) {
-        const similar = data.properties
-          .filter((p) => p.id !== item.id)
-          .sort((a, b) => {
-            const aScore = (a.type === item.type ? 2 : 0) + (a.location?.includes("Pune") ? 1 : 0);
-            const bScore = (b.type === item.type ? 2 : 0) + (b.location?.includes("Pune") ? 1 : 0);
-            return bScore - aScore;
-          })
-          .slice(0, 3);
-
-        similarPropertiesEl.innerHTML = similar
-          .map(
-            (property) => `
-              <div class="col-md-6 col-xl-4">
-                <article class="related-property-card">
-                  <img loading="lazy" decoding="async" fetchpriority="low" src="${(property.images && property.images[0]) || "assets/img/properties/featured-1.jpg"}" alt="${property.name}" />
-                  <div class="related-property-copy">
-                    <h3><a href="property-details.html?id=${property.id}">${property.name}</a></h3>
-                    <p><i class="bi bi-geo-alt"></i> ${property.location || "Pune"}</p>
-                    <div class="related-property-meta">
-                      <span>${property.price_display || "On Request"}</span>
-                      <span>${property.area_display || property.type || "Property"}</span>
-                    </div>
-                  </div>
-                </article>
-              </div>
-            `,
-          )
-          .join("");
-      }
-
       // Initialize Swiper with delay to ensure DOM is ready
       setTimeout(() => {
         const swiperEl = document.getElementById("property-slider");
@@ -301,6 +337,12 @@
             const config = JSON.parse(
               swiperEl.querySelector(".swiper-config").innerHTML.trim(),
             );
+            if (propertyId === "kingsbay-farmhouse-plotting") {
+              config.loop = false;
+              config.allowTouchMove = false;
+              delete config.autoplay;
+              delete config.navigation;
+            }
             if (swiperEl.swiper) {
               swiperEl.swiper.destroy(true, true);
             }

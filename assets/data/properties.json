@@ -1,5 +1,71 @@
-{
+﻿{
     "properties":  [
+                       {
+                           "id":  "kumar-prism-towers-magarpatta",
+                           "name":  "Kumar Prism Towers",
+                           "tagline":  "Luxury 3 BHK \u0026 4 BHK Residences",
+                           "location":  "Magarpatta near Hotel Sandeep, Pune",
+                           "type":  "Residential",
+                           "price_display":  "Rs. 2.20 Cr onwards",
+                           "area_display":  "1335-1722 sq.ft. (Carpet)",
+                           "status":  "Bookings Open",
+                           "possession":  "On Request",
+                           "map":  "https://maps.app.goo.gl/Xswaki6j516W6km66?g_st=ic",
+                           "images":  [
+                                          "assets/img/kumar-prism/kumar_prism_3bhk_a.jpg",
+                                          "assets/img/kumar-prism/kumar_prism_4bhk.jpg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "Kumar World Privie Segment launch at Magarpatta",
+                                                              "MahaRERA Registration No.: PM1260002501640",
+                                                              "Total land parcel: 2.01 acres",
+                                                              "2 towers with luxury 3 BHK and 4 BHK residences",
+                                                              "33-storey development",
+                                                              "Bookings currently open"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Configurations \u0026 Pricing",
+                                                "items":  [
+                                                              "3 BHK - 1335 sq.ft. carpet - Rs. 2.20 Cr all-inclusive package",
+                                                              "3 BHK - 1358 sq.ft. carpet - Rs. 2.25 Cr all-inclusive package",
+                                                              "4 BHK - 1722 sq.ft. carpet - Rs. 2.80 Cr all-inclusive package",
+                                                              "Floor rise for 3 BHK: Rs. 65,000 from 2nd floor onwards",
+                                                              "Floor rise for 4 BHK: Rs. 75,000 from 2nd floor onwards"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Location Advantage",
+                                                "items":  [
+                                                              "Magarpatta location near Hotel Sandeep",
+                                                              "Prime residential catchment with strong city connectivity",
+                                                              "Well-positioned for buyers seeking central East Pune access",
+                                                              "Map location shared for direct site reach and visit planning"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Booking \u0026 Payment Details",
+                                                "items":  [
+                                                              "Cheque in favour of: KUMAR PRISM REALTY LLP RERA DESIGNATED COLLECTION BANK ACCOUNT KUMAR PRISMS TOWER A",
+                                                              "All-inclusive package pricing shared for current booking window",
+                                                              "Ideal to secure inventory early for better selection",
+                                                              "Hurry up to get maximum bookings"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Floor Plans",
+                                                "items":  [
+                                                              "3 BHK A plan attached in image gallery",
+                                                              "4 BHK plan attached in image gallery",
+                                                              "3 BHK A RERA carpet: 124.03 sq.m. / 1335 sq.ft.",
+                                                              "4 BHK RERA carpet: 159.98 sq.m. / 1722 sq.ft."
+                                                          ]
+                                            }
+                                        ]
+                       },
                        {
                            "id":  "purti-law-college-road",
                            "name":  "PURTI",
@@ -12,13 +78,33 @@
                            "possession":  "Target Dec 2027 (RERA June 2028)",
                            "map":  "https://maps.app.goo.gl/MKz7wN9gCitgrewg7",
                            "images":  [
+                                          "assets/img/purti/purti_page01_img01.png",
                                           "assets/img/purti/purti_page02_img01.png",
                                           "assets/img/purti/purti_page03_img01.jpeg",
                                           "assets/img/purti/purti_page03_img02.jpeg",
+                                          "assets/img/purti/purti_page03_img03.png",
                                           "assets/img/purti/purti_page04_img01.jpeg",
                                           "assets/img/purti/purti_page04_img02.jpeg",
+                                          "assets/img/purti/purti_page04_img03.jpeg",
+                                          "assets/img/purti/purti_page04_img04.jpeg",
+                                          "assets/img/purti/purti_page04_img05.png",
+                                          "assets/img/purti/purti_page04_img06.png",
+                                          "assets/img/purti/purti_page05_img01.jpeg",
+                                          "assets/img/purti/purti_page05_img02.png",
                                           "assets/img/purti/purti_page05_img03.jpeg",
-                                          "assets/img/purti/purti_page06_img10.png"
+                                          "assets/img/purti/purti_page05_img04.png",
+                                          "assets/img/purti/purti_page06_img01.png",
+                                          "assets/img/purti/purti_page06_img02.png",
+                                          "assets/img/purti/purti_page06_img03.jpeg",
+                                          "assets/img/purti/purti_page06_img04.jpeg",
+                                          "assets/img/purti/purti_page06_img05.png",
+                                          "assets/img/purti/purti_page06_img06.jpeg",
+                                          "assets/img/purti/purti_page06_img07.png",
+                                          "assets/img/purti/purti_page06_img08.jpeg",
+                                          "assets/img/purti/purti_page06_img09.png",
+                                          "assets/img/purti/purti_page06_img10.png",
+                                          "assets/img/purti/purti_page06_img11.png",
+                                          "assets/img/purti/purti_page06_img12.jpeg"
                                       ],
                            "sections":  [
                                             {
@@ -80,13 +166,12 @@
                            "map":  "https://maps.app.goo.gl/dJhgLKnPLgrMAPDs6",
                            "images":  [
                                           "assets/img/anudatta/anudatta_page02_img01.jpeg",
-                                          "assets/img/anudatta/anudatta_page03_img01.jpeg",
-                                          "assets/img/anudatta/anudatta_page03_img02.jpeg",
                                           "assets/img/anudatta/anudatta_page03_img03.jpeg",
                                           "assets/img/anudatta/anudatta_page04_img01.jpeg",
                                           "assets/img/anudatta/anudatta_page05_img01.jpeg",
                                           "assets/img/anudatta/anudatta_page06_img01.jpeg",
-                                          "assets/img/anudatta/anudatta_page07_img01.jpeg"
+                                          "assets/img/anudatta/anudatta_page07_img01.jpeg",
+                                          "assets/img/anudatta/anudatta_page08_img01.jpeg"
                                       ],
                            "sections":  [
                                             {
@@ -136,14 +221,53 @@
                            "possession":  "On Request",
                            "map":  "https://www.google.com/maps?q=Vanaz%20Metro%20Station%20Kothrud%20Pune",
                            "images":  [
-                                          "assets/img/nfs/nfs_page09_img01.jpeg",
-                                          "assets/img/nfs/nfs_page15_img02.jpeg",
-                                          "assets/img/nfs/nfs_page10_img02.jpeg",
-                                          "assets/img/nfs/nfs_page14_img03.jpeg",
-                                          "assets/img/nfs/nfs_page16_img02.jpeg",
+                                          "assets/img/nfs/nfs_page02_img01.jpeg",
+                                          "assets/img/nfs/nfs_page02_img04.jpeg",
+                                          "assets/img/nfs/nfs_page03_img05.jpeg",
+                                          "assets/img/nfs/nfs_page04_img03.jpeg",
+                                          "assets/img/nfs/nfs_page04_img06.jpeg",
+                                          "assets/img/nfs/nfs_page05_img01.jpeg",
+                                          "assets/img/nfs/nfs_page05_img03.jpeg",
+                                          "assets/img/nfs/nfs_page05_img04.jpeg",
+                                          "assets/img/nfs/nfs_page07_img01.jpeg",
+                                          "assets/img/nfs/nfs_page07_img02.jpeg",
+                                          "assets/img/nfs/nfs_page08_img01.jpeg",
                                           "assets/img/nfs/nfs_page08_img02.jpeg",
+                                          "assets/img/nfs/nfs_page09_img01.jpeg",
+                                          "assets/img/nfs/nfs_page09_img02.jpeg",
+                                          "assets/img/nfs/nfs_page09_img03.jpeg",
+                                          "assets/img/nfs/nfs_page09_img04.jpeg",
+                                          "assets/img/nfs/nfs_page09_img05.jpeg",
+                                          "assets/img/nfs/nfs_page10_img01.jpeg",
+                                          "assets/img/nfs/nfs_page10_img02.jpeg",
+                                          "assets/img/nfs/nfs_page11_img01.jpeg",
+                                          "assets/img/nfs/nfs_page11_img02.jpeg",
+                                          "assets/img/nfs/nfs_page11_img03.jpeg",
+                                          "assets/img/nfs/nfs_page11_img04.jpeg",
+                                          "assets/img/nfs/nfs_page12_img01.jpeg",
+                                          "assets/img/nfs/nfs_page12_img02.jpeg",
+                                          "assets/img/nfs/nfs_page12_img03.jpeg",
+                                          "assets/img/nfs/nfs_page12_img04.jpeg",
+                                          "assets/img/nfs/nfs_page12_img05.jpeg",
+                                          "assets/img/nfs/nfs_page13_img01.jpeg",
                                           "assets/img/nfs/nfs_page13_img02.jpeg",
-                                          "assets/img/nfs/nfs_page12_img05.jpeg"
+                                          "assets/img/nfs/nfs_page14_img01.jpeg",
+                                          "assets/img/nfs/nfs_page14_img02.jpeg",
+                                          "assets/img/nfs/nfs_page14_img03.jpeg",
+                                          "assets/img/nfs/nfs_page15_img01.jpeg",
+                                          "assets/img/nfs/nfs_page15_img02.jpeg",
+                                          "assets/img/nfs/nfs_page16_img01.jpeg",
+                                          "assets/img/nfs/nfs_page16_img02.jpeg",
+                                          "assets/img/nfs/nfs_page16_img03.jpeg",
+                                          "assets/img/nfs/nfs_page16_img04.jpeg",
+                                          "assets/img/nfs/nfs_page17_img01.jpeg",
+                                          "assets/img/nfs/nfs_page17_img02.jpeg",
+                                          "assets/img/nfs/nfs_page19_img01.jpeg",
+                                          "assets/img/nfs/nfs_page19_img02.jpeg",
+                                          "assets/img/nfs/nfs_page20_img01.jpeg",
+                                          "assets/img/nfs/nfs_page20_img02.jpeg",
+                                          "assets/img/nfs/nfs_page20_img03.jpeg",
+                                          "assets/img/nfs/nfs_page20_img04.jpeg"
                                       ],
                            "sections":  [
                                             {
@@ -263,7 +387,15 @@
                            "possession":  "Dec 2028",
                            "map":  "https://www.google.com/maps?q=Pan%20Card%20Club%20Road%20Baner%20Pune",
                            "images":  [
-                                          "assets/img/elements/Screenshot 2026-03-26 231200.png"
+                                          "assets/img/elements/Screenshot 2026-03-26 231200.png",
+                                          "assets/img/elements/Screenshot 2026-04-05 203712.png",
+                                          "assets/img/elements/Screenshot 2026-04-05 203735.png",
+                                          "assets/img/elements/Screenshot 2026-04-05 203756.png",
+                                          "assets/img/elements/Screenshot 2026-04-05 203827.png",
+                                          "assets/img/elements/Screenshot 2026-04-05 203903.png",
+                                          "assets/img/elements/Screenshot 2026-04-05 203936.png",
+                                          "assets/img/elements/Screenshot 2026-04-05 204001.png",
+                                          "assets/img/elements/Screenshot 2026-04-05 204026.png"
                                       ],
                            "sections":  [
                                             {
@@ -390,11 +522,14 @@
                            "map":  "https://www.google.com/maps?q=Pune",
                            "images":  [
                                           "assets/img/ashwamedh/ashwamedh_page01_img01.jpeg",
+                                          "assets/img/ashwamedh/ashwamedh_page02_img01.jpeg",
+                                          "assets/img/ashwamedh/ashwamedh_page02_img02.jpeg",
                                           "assets/img/ashwamedh/ashwamedh_page03_img01.jpeg",
-                                          "assets/img/ashwamedh/ashwamedh_page07_img01.jpeg",
-                                          "assets/img/ashwamedh/ashwamedh_page08_img01.jpeg",
-                                          "assets/img/ashwamedh/ashwamedh_page06_img01.png",
-                                          "assets/img/ashwamedh/ashwamedh_page02_img02.jpeg"
+                                          "assets/img/ashwamedh/ashwamedh_page04_img01.jpeg",
+                                          "assets/img/ashwamedh/ashwamedh_page04_img03.jpeg",
+                                          "assets/img/ashwamedh/ashwamedh_page04_img05.jpeg",
+                                          "assets/img/ashwamedh/ashwamedh_page04_img07.jpeg",
+                                          "assets/img/ashwamedh/ashwamedh_page04_img09.jpeg"
                                       ],
                            "sections":  [
                                             {
@@ -416,14 +551,15 @@
                        {
                            "id":  "kingsbay-farmhouse-plotting",
                            "name":  "Kingsbay (Farmhouse Plotting)",
-                           "tagline":  "Agriculture / Farm House Plotting",
+                           "tagline":  "Agriculture / Farm House Plotting Project",
                            "location":  "Khechare (Mulshi), Pune",
                            "type":  "Plotting",
                            "price_display":  "Rs. 1.65 Cr + taxes",
                            "area_display":  "1 Acre onwards",
                            "status":  "Phase 1",
                            "possession":  "Phase 1",
-                           "map":  "https://www.google.com/maps-q=Khechare%20Mulshi%20Pune",
+                           "map":  "https://www.google.com/maps?q=Khechare%20Mulshi%20Pune&output=embed",
+                           "video":  "assets/img/video/kingsbay.mp4",
                            "images":  [
                                           "assets/img/properties/featured-3.jpg"
                                       ],
@@ -431,32 +567,51 @@
                                             {
                                                 "title":  "Project Highlights",
                                                 "items":  [
-                                                              "Phase 1 Area: 125 Acres",
-                                                              "Total Plots: 100+",
+                                                              "Phase 1 total area: 125 acres",
+                                                              "Total plots: 100+ plots",
                                                               "Individual Plot Size: 1 Acre onwards",
-                                                              "Price: Rs. 1.65 Cr + taxes"
+                                                              "Price: Rs. 1.65 Cr plus taxes"
                                                           ]
                                             },
                                             {
                                                 "title":  "Features \u0026 Amenities",
                                                 "items":  [
-                                                              "Grand entrance gate with security",
-                                                              "12 m \u0026 9 m concrete roads",
-                                                              "Roadside fencing, lights, flower beds",
-                                                              "Water \u0026 electricity to individual plots",
-                                                              "Clubhouse, multipurpose area, cafeteria",
-                                                              "Gazebo and amphitheatre"
+                                                              "Attractive grand entrance gate with security",
+                                                              "12 mtrs and 9 mtrs concrete roads",
+                                                              "Roadside fencing",
+                                                              "Roadside flower beds and decorative natural landscaping",
+                                                              "Roadside light poles and lamps",
+                                                              "Barbed wire fencing to individual plots",
+                                                              "Water and electricity connection to individual plots",
+                                                              "Club House",
+                                                              "Multi Purpose Area",
+                                                              "Cafeteria",
+                                                              "Gazebo",
+                                                              "Amphi Theatre"
                                                           ]
                                             },
                                             {
                                                 "title":  "Special USP",
                                                 "items":  [
+                                                              "Easy payment option",
                                                               "Gated community",
-                                                              "Mountain and water views",
-                                                              "Surrounded by trees \u0026 forest",
-                                                              "Hiking \u0026 trekking",
-                                                              "Upcoming 6-lane NH road",
-                                                              "In-house farmhouse development team"
+                                                              "Absolute mountain view",
+                                                              "Water view from one side",
+                                                              "Surrounded by trees and forest for privacy",
+                                                              "Hiking, trekking and adventure potential",
+                                                              "Upcoming 6 lane NH road",
+                                                              "Separate in-house farm house and 2nd home development team"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Location Advantage",
+                                                "items":  [
+                                                              "Necessity materials like water, food, medicine and transportation are available within approx. 10 to 20 minutes",
+                                                              "Chandani Chowk - 27 kms",
+                                                              "Paud Village Junction - 7 kms",
+                                                              "Hospital - approx 20 mins",
+                                                              "Banks - approx 20 mins",
+                                                              "Hinjewadi - approx 60 mins"
                                                           ]
                                             },
                                             {
@@ -465,7 +620,7 @@
                                                               "Agriculture / farm house plots",
                                                               "Individual 7/12",
                                                               "Clear title",
-                                                              "Easy documentation \u0026 registration"
+                                                              "Easy documentation and registration process"
                                                           ]
                                             }
                                         ]
@@ -480,7 +635,7 @@
                            "area_display":  "1317-4047 sqft",
                            "status":  "Under Construction",
                            "possession":  "On Request",
-                           "map":  "https://www.google.com/maps?q=Baner%20Pashan%20Link%20Road%20Pune&output=embed",
+                           "map":  "https://www.google.com/maps?q=Baner%20Pashan%20Link%20Road%20Pune\u0026output=embed",
                            "images":  [
                                           "assets/img/livience-aleenta/livience_aleenta_page03_img01.jpg",
                                           "assets/img/livience-aleenta/livience_aleenta_page09_img01.jpg",
@@ -511,13 +666,13 @@
                                                           ]
                                             },
                                             {
-                                                "title":  "Amenities & Features",
+                                                "title":  "Amenities \u0026 Features",
                                                 "items":  [
-                                                              "Swimming pool, kid's pool and aroma pool",
+                                                              "Swimming pool, kid\u0027s pool and aroma pool",
                                                               "Spa, gym, yoga and squash court",
                                                               "Mini theatre, multipurpose hall and co-working space",
                                                               "Guest suites, library and senior citizen area",
-                                                              "Kid's play area, games room and toddler's area",
+                                                              "Kid\u0027s play area, games room and toddler\u0027s area",
                                                               "Pet zone, gazebo, reflexology pathway and amphitheatre"
                                                           ]
                                             },
@@ -548,15 +703,16 @@
                        {
                            "id":  "teerth-technospace",
                            "name":  "Teerth Technospace",
-                           "tagline":  "Premium Office Space for Sale",
-                           "location":  "Baner, Pune (Next to B.U. Bhandari Mercedes-Benz)",
+                           "tagline":  "Premium Office Space for Sale | Baner, Pune",
+                           "location":  "Teerth Technospace, Next to B.U. Bhandari Mercedes-Benz Showroom, Mumbai-Bangalore Highway, Baner, Pune",
                            "type":  "Commercial Office",
                            "price_display":  "Rs. 4 Cr",
                            "area_display":  "2,819 sq. ft. (Saleable)",
                            "status":  "Ready to move",
                            "possession":  "Ready to move",
-                           "map":  "https://www.google.com/maps-q=Teerth%20Technospace%20Baner%20Pune",
+                           "map":  "https://www.google.com/maps?q=Teerth%20Technospace%20Baner%20Pune&output=embed",
                            "images":  [
+                                          "assets/img/6a29a724-2a74-4c30-9d20-396a80491fac.jpg",
                                           "assets/img/properties/listing-1.jpg"
                                       ],
                            "sections":  [
@@ -566,7 +722,8 @@
                                                               "Fully furnished, ready office",
                                                               "Saleable Area: 2,819 sq. ft.",
                                                               "Carpet Area: 1,941 sq. ft.",
-                                                              "Prime commercial location"
+                                                              "Prime commercial location",
+                                                              "Strong rental and appreciation potential"
                                                           ]
                                             },
                                             {
@@ -579,9 +736,17 @@
                                             {
                                                 "title":  "Location Advantage",
                                                 "items":  [
-                                                              "Next to B.U. Bhandari Mercedes-Benz showroom",
+                                                              "Next to B.U. Bhandari Mercedes-Benz Showroom",
                                                               "On Mumbai-Bangalore Highway",
                                                               "Baner commercial hub"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Contact Support",
+                                                "items":  [
+                                                              "For more details and site visit please call",
+                                                              "Atul Mazire - Kappstone Realty",
+                                                              "Contact: 70306 36565"
                                                           ]
                                             }
                                         ]
@@ -800,6 +965,197 @@
                                                               "Spacious 3 BHK and 4.5 BHK homes",
                                                               "Designed for a premium Baner lifestyle",
                                                               "Site visit and inventory assistance available"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "gera-the-crown-isle-royale",
+                           "name":  "The Crown at Gera\u0027s Isle Royale",
+                           "tagline":  "Limited Edition 3.5 \u0026 4.5 BHK Residences",
+                           "location":  "Bavdhan Khurd, Mulshi, Pune 411021",
+                           "type":  "Residential",
+                           "price_display":  "Rs. 3.02 Cr onwards",
+                           "area_display":  "2074-2565 sq.ft. (Carpet)",
+                           "status":  "Pre-Launch",
+                           "possession":  "On Request",
+                           "map":  "https://www.google.com/maps?q=Bavdhan+Khurd,+Mulshi,+Pune+411021\u0026output=embed",
+                           "images":  [
+                                          "assets/img/Gera/Gera.jpg",
+                                          "assets/img/Gera/gera_page_01_cover.jpg",
+                                          "assets/img/Gera/gera_page_06_overview.jpg",
+                                          "assets/img/Gera/gera_page_08_bavdhan.jpg",
+                                          "assets/img/Gera/gera_page_10_connectivity.jpg",
+                                          "assets/img/Gera/gera_page_12_neighbourhood.jpg",
+                                          "assets/img/Gera/gera_page_31_floorplan_3_5bhk.jpg",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190426.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190503.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190533.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190556.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190618.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190641.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190706.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190730.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190752.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190834.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190906.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 190949.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191013.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191038.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191118.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191140.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191206.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191236.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191258.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191323.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191400.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191430.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191452.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191516.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191539.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191600.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191626.png",
+                                          "assets/img/Gera/Screenshot 2026-04-05 191653.png"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Project Highlights",
+                                                "items":  [
+                                                              "The Crown campaign at Gera\u0027s Isle Royale Tower A and B",
+                                                              "Bavdhan\u0027s distinguished address with limited edition residences",
+                                                              "Only 60 exquisitely crafted residences planned",
+                                                              "Boutique low-density development designed around nature",
+                                                              "Located in the lap of the Sahyadri hills with city connectivity",
+                                                              "MahaRERA Registration No.: P52100011031"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Configurations \u0026 Pricing",
+                                                "items":  [
+                                                              "3.5 BHK - 2074.12 sq.ft. carpet - 30:70 plan from Rs. 3.15 Cr onwards",
+                                                              "3.5 BHK - 2074.12 sq.ft. carpet - standard plan from Rs. 3.02 Cr onwards",
+                                                              "4.5 BHK - 2565.60 sq.ft. carpet - 30:70 plan from Rs. 3.90 Cr onwards",
+                                                              "4.5 BHK - 2565.60 sq.ft. carpet - standard plan from Rs. 3.73 Cr onwards",
+                                                              "30:70 payment plan available for a limited period only"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Location Advantage",
+                                                "items":  [
+                                                              "Bavdhan offers a rare balance of city life and serenity",
+                                                              "Approx. 1.5 km from Chandni Chowk",
+                                                              "Quick access to Mumbai-Bengaluru Highway, Paud Road and Pashan Road",
+                                                              "Seamless reach to Aundh, Kothrud, Baner, Hinjawadi and Deccan",
+                                                              "Weekend connectivity to Mulshi, Khadakwasla, Lonavala and Mumbai"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Neighbourhood \u0026 Connectivity",
+                                                "items":  [
+                                                              "Indian Model International School, Bavdhan - 550 m",
+                                                              "PMPML Bus Stop (P.V.P.I.T College) - 600 m",
+                                                              "Ryan International School, Bavdhan - 2.9 km",
+                                                              "City Hospital - 3.8 km",
+                                                              "Pune Metro Station (Vanaz) - 4.5 km",
+                                                              "Pune Airport - 21 km"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Brochure Notes",
+                                                "items":  [
+                                                              "Current sanctioned plan is under revision",
+                                                              "At present there are 42 sanctioned units and proposed plan includes 60 units",
+                                                              "Project details available on the official MahaRERA website",
+                                                              "Pricing and availability should be reconfirmed before booking"
+                                                          ]
+                                            }
+                                        ]
+                       },
+                       {
+                           "id":  "skf-channel-partner",
+                           "name":  "SKF Channel Partner",
+                           "tagline":  "Curated Premium Residences Across Prabhat Road, Model Colony, Shivaji Nagar and Kothrud",
+                           "location":  "Premium Pune micro-markets including Prabhat Road, Model Colony, Shivaji Nagar and Kothrud",
+                           "type":  "Residential",
+                           "price_display":  "Rs. 2 Cr onwards",
+                           "area_display":  "873-2547 sq.ft. (Carpet)",
+                           "status":  "Inventory Available",
+                           "possession":  "2025-2027 depending on project",
+                           "map":  "https://maps.app.goo.gl/59gojVUfTWvcArcc9",
+                           "images":  [
+                                          "assets/img/skf/skf_page01_img01.jpeg",
+                                          "assets/img/skf/skf_page01_img02.jpeg",
+                                          "assets/img/skf/skf_page02_img01.jpeg",
+                                          "assets/img/skf/skf_page02_img02.png",
+                                          "assets/img/skf/skf_page03_img01.jpeg",
+                                          "assets/img/skf/skf_page03_img02.png",
+                                          "assets/img/skf/skf_page04_img01.jpeg",
+                                          "assets/img/skf/skf_page04_img02.jpeg",
+                                          "assets/img/skf/skf_page04_img03.jpeg",
+                                          "assets/img/skf/skf_page05_img01.jpeg",
+                                          "assets/img/skf/skf_page05_img02.jpeg",
+                                          "assets/img/skf/skf_page05_img03.jpeg",
+                                          "assets/img/skf/skf_page06_img01.jpeg",
+                                          "assets/img/skf/skf_page06_img02.png",
+                                          "assets/img/skf/skf_page07_img01.jpeg",
+                                          "assets/img/skf/skf_page07_img02.png",
+                                          "assets/img/skf/skf_page08_img01.jpeg",
+                                          "assets/img/skf/skf_page09_img01.png",
+                                          "assets/img/skf/skf_page09_img02.jpeg",
+                                          "assets/img/skf/skf_page10_img01.jpeg",
+                                          "assets/img/skf/skf_page10_img02.jpeg",
+                                          "assets/img/skf/skf_page11_img01.jpeg",
+                                          "assets/img/skf/skf_page12_img01.jpeg",
+                                          "assets/img/skf/skf_page12_img02.jpeg",
+                                          "assets/img/skf/skf_page13_img01.jpeg"
+                                      ],
+                           "sections":  [
+                                            {
+                                                "title":  "Portfolio Highlights",
+                                                "items":  [
+                                                              "Channel partner inventory across premium Pune residential pockets",
+                                                              "Locations include Prabhat Road, Model Colony, Apte Road, Shivaji Nagar and Kothrud",
+                                                              "Configuration mix ranges from 2 BHK to 6 BHK residences",
+                                                              "Price band starts from approx. Rs. 2 Cr and goes up to Rs. 8.20 Cr",
+                                                              "Possession windows range from June 2025 to December 2027 depending on project"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Prabhat Road Collection",
+                                                "items":  [
+                                                              "Sai Krupa - 3 BHK - 1180 sq.ft. - Rs. 3.35 Cr - possession December 2027",
+                                                              "Prashanti - 4 BHK - 1933 sq.ft. - Rs. 5.80 Cr - possession Dec 2026",
+                                                              "Apoorva CHSL - 4 BHK - 1834 and 1876 sq.ft. - Rs. 5.50 Cr to Rs. 5.65 Cr - possession December 2027",
+                                                              "Swadhyay - 3 BHK 1230 sq.ft. from Rs. 3.86 Cr and 4 BHK 1685 sq.ft. at Rs. 5.19 Cr",
+                                                              "Sakar, Prabhat Road - 3 BHK 1326-1336 sq.ft. at Rs. 4.04 Cr and 4 BHK 1772 sq.ft. at Rs. 5.31 Cr"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Model Colony \u0026 Central Pune",
+                                                "items":  [
+                                                              "Kusum - 4.5 BHK and 6 BHK - 2412/2547 sq.ft. - Rs. 7.50 Cr to Rs. 8.20 Cr",
+                                                              "Kusum - 3 BHK - 1156/1243/1251 sq.ft. - Rs. 3.50 Cr to Rs. 3.90 Cr",
+                                                              "Garud House, Model Colony - 2.5 BHK - 1057 sq.ft. at Rs. 2.50 Cr",
+                                                              "Garud House, Model Colony - 2.5 BHK - 1132 sq.ft. at Rs. 2.70 Cr",
+                                                              "Yashodhan, Apte Road, Shivaji Nagar - 4 BHK - 2313 sq.ft. - Rs. 7.50 Cr to Rs. 8.20 Cr - possession December 2027"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Kothrud Inventory",
+                                                "items":  [
+                                                              "Sukhada Garden - 2 BHK - 873 sq.ft. - Rs. 2 Cr all inclusive",
+                                                              "Sukhada Garden - 3 BHK - 1367 sq.ft. - Rs. 3.20 Cr all inclusive",
+                                                              "Location: Maha Ganesh Colony, Kothrud",
+                                                              "Possession: June 2027"
+                                                          ]
+                                            },
+                                            {
+                                                "title":  "Booking Notes",
+                                                "items":  [
+                                                              "Quoted prices exclude society corpus fund and legal fees unless reconfirmed",
+                                                              "Availability should be checked at the time of enquiry",
+                                                              "Floor plans for multiple options are available in the image gallery",
+                                                              "Suitable for buyers looking for premium ready reference inventory across key Pune addresses"
                                                           ]
                                             }
                                         ]
