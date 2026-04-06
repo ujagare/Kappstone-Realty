@@ -993,6 +993,23 @@ h6 {
   color: #f0b626;
 }
 
+.footer .footer-credit-line {
+  display: block !important;
+  text-align: right;
+  margin-top: 0;
+  color: rgba(232, 243, 237, 0.7);
+  font-size: 13px;
+  margin-left: auto;
+}
+
+.footer .footer-credit-line a {
+  color: #f0b626;
+}
+
+.footer .footer-credit-line a:hover {
+  color: #ffffff;
+}
+
 @media (max-width: 991px) {
   .footer .footer-cta {
     grid-template-columns: 1fr;
@@ -8804,6 +8821,12 @@ section,
   .footer .credits {
     font-size: 11px;
     margin-top: 12px;
+  }
+
+  .footer .footer-credit-line {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
   }
 }
 
