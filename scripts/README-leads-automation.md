@@ -11,12 +11,14 @@ Add these environment variables in Netlify:
 
 ```env
 RESEND_API_KEY=re_xxxxx
-CONTACT_TO_EMAIL=sales@kappstonerealty.com
+CONTACT_TO_EMAIL=sales@kappstonerealty.com,yourname@gmail.com
 CONTACT_FROM_EMAIL=no-reply@kappstonerealty.com
 CONTACT_AUTO_REPLY_FROM_EMAIL=no-reply@kappstonerealty.com
 GOOGLE_SHEETS_WEBHOOK_URL=
 CRM_WEBHOOK_URL=
 ```
+
+`CONTACT_TO_EMAIL` can include multiple comma-separated recipients. Use this if you want the lead to land in a Gmail inbox directly instead of depending only on forwarding from your business mailbox.
 
 ## Google Sheets backup
 

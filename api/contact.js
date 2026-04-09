@@ -26,8 +26,12 @@ module.exports = async (req, res) => {
   const toEmail = process.env.CONTACT_TO_EMAIL;
   const fromEmail =
     process.env.CONTACT_FROM_EMAIL || "no-reply@kappstonerealty.com";
+  const recipients = (toEmail || "")
+    .split(/[;,]/)
+    .map((value) => value.trim())
+    .filter(Boolean);
 
-  if (!resendApiKey || !toEmail) {
+  if (!resendApiKey || recipients.length === 0) {
     res.statusCode = 500;
     res.setHeader("Content-Type", "text/plain; charset=utf-8");
     res.end(
@@ -58,7 +62,7 @@ module.exports = async (req, res) => {
       },
       body: JSON.stringify({
         from: fromEmail,
-        to: [toEmail],
+        to: recipients,
         subject,
         text,
         reply_to: email || undefined,

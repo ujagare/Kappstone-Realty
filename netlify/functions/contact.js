@@ -146,13 +146,13 @@ exports.handler = async (event) => {
   if (submittedAt) {
     const submittedTime = Date.parse(submittedAt);
 
-    if (!Number.isNaN(submittedTime) && Date.now() - submittedTime < 4000) {
+    if (!Number.isNaN(submittedTime) && Date.now() - submittedTime < 1200) {
       return {
         statusCode: 200,
         headers: {
           "Content-Type": "text/plain; charset=utf-8",
         },
-        body: "OK",
+        body: "Please wait a moment before submitting the form.",
       };
     }
   }
@@ -173,10 +173,14 @@ exports.handler = async (event) => {
     process.env.CONTACT_FROM_EMAIL || "no-reply@kappstonerealty.com";
   const autoReplyFromEmail =
     process.env.CONTACT_AUTO_REPLY_FROM_EMAIL || fromEmail;
+  const recipients = (toEmail || "")
+    .split(/[;,]/)
+    .map((value) => value.trim())
+    .filter(Boolean);
   const googleSheetsWebhookUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
   const crmWebhookUrl = process.env.CRM_WEBHOOK_URL;
 
-  if (!resendApiKey || !toEmail) {
+  if (!resendApiKey || recipients.length === 0) {
     return {
       statusCode: 500,
       headers: {
@@ -226,7 +230,7 @@ exports.handler = async (event) => {
   try {
     await sendEmail(resendApiKey, {
         from: fromEmail,
-        to: [toEmail],
+        to: recipients,
         subject: leadSubject,
         text,
         reply_to: email,
@@ -255,7 +259,7 @@ exports.handler = async (event) => {
       ]
         .filter(Boolean)
         .join("\n"),
-      reply_to: toEmail,
+      reply_to: recipients[0],
     });
 
     await Promise.allSettled([
